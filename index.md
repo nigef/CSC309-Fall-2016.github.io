@@ -12,6 +12,7 @@ This course provides an introduction to the technologies used for developing Web
 Please read and make sure that you understand the <a href="{{ BASE_PATH }}info.html">course syllabus</a> 
 
 ###Contact information
+
 <div class="contact">
 <dl class="dl-horizontal">
 	<dt>Instructor:</dt>

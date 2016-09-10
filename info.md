@@ -48,7 +48,7 @@ At the end of this course you will be able to:
 
 #### Course Information:
 
-- **Website:**: http://
+- **Website:**: https://csc309-fall-2016.github.io/
 
 One of the nice things about use Github for the course web site is that you can contribute to the course web site. If you see something on the course web site that should be fixed, or want to improve the UI, please feel free to submit a pull request.
 
@@ -117,9 +117,6 @@ The final exam is comprehensive, 3 hours, and held during the exam period. You m
 </tr>
 <tr> <td>13</td> <td>5 Dec</td> <td>Demos</td> <td></td><td></td>
 </tr>
-
-
-
 
 </table>
 
