@@ -5,13 +5,13 @@ tagline: Fall 2016
 ---
 {% include JB/setup %}
 
-###Course Description
+### Course Description
 
 This course provides an introduction to the technologies used for developing Web applications. We discuss technologies for static and dynamic content generation, including N-tier, MVC architectures, and mobile supported web development. We also cover general web design principles, security, and web performance.
 
 Please read and make sure that you understand the <a href="{{ BASE_PATH }}info.html">course syllabus</a> 
 
-###Contact information
+### Contact information
 
 <div class="contact">
 <dl class="dl-horizontal">
