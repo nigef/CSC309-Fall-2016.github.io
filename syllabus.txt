@@ -1,0 +1,47 @@
+Week 1: 
+    L1 Intro - History of the web -HTTP
+    L2 Intro - Basic server and HTTP
+    
+Week 2:
+    L1 Browser architecture - HTML
+    L2 CSS and DOM?
+    
+Week 3:
+    L1 Javascript - closures, modules, objects, prototypes
+    L2 Javascript - 
+
+Week 4
+    L1 JQuery
+    L2 React
+
+Week 5:A1 - Simple React front end (building on week 4 lab?)
+    L1 AJAX, JSON, REST API
+    L2 Forms
+    
+Week 6:
+    L1 Node - Event programming
+    L2 Async
+
+Week 7:
+    L1 Sessions
+    L2 Testing
+
+Week 8:A2 - REST
+    L1 DB 
+    L2
+
+Week 9: Project proposal due at the end of the week
+    L1 
+    L2
+
+Week 10: 
+    L1 Security
+    L2
+
+Week 11:
+    L1 Advance topics TBD
+    L2
+
+Week 12: Project
+    L1 
+    L2
