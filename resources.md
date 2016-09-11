@@ -16,6 +16,10 @@ tagline: Fall 2016
   
    A large collection of tutorials, articles and documentation for the developert tools.
 
+  - [Learn X in Y minutes](https://learnxinyminutes.com/) 
+  
+   A huge collection of tutorials for various programming languages and tools, including many pertaining to web development.
+
 #### Javascript
 
 Books:
@@ -47,5 +51,8 @@ Books:
 
 #### Security
 
+   - [Hacksplaining](https://www.hacksplaining.com/)
+   
+   Interactive explanations of common online vulnerabilities, with guidelines on how to avoid them. 
 
 #### Other
