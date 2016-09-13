@@ -1,7 +1,6 @@
 # Welcome to CSC309 - Fall 2016
 
-Course Link: https://csc309-fall-2016.github.io/info.html
-
+Course Link: https://csc309-fall-2016.github.io/
 ## To add info to the course:
 
 ### 1. Install RVM:
