@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Welcome to CSC309 Fall 2016
+title: Welcome to CSC309H Fall 2016
 ---
 
 ## Course Description

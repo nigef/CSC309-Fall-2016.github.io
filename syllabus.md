@@ -1,6 +1,6 @@
 ---
 layout: page
-title: CSC309 Course Syllabus Fall 2016
+title: CSC309H Course Syllabus Fall 2016
 permalink: /syllabus/
 ---
 
