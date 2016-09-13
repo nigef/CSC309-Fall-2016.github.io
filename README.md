@@ -1,37 +1,37 @@
-# Jekyll-Bootstrap-3
+# Welcome to CSC309 - Fall 2016
 
-Easily publish Bootstrap 3 powered Jekyll sites.  
-Fork of the well known jekyll-bootstrap (v0.3.0). Original project is [here](https://github.com/plusjade/jekyll-bootstrap).  
-The quickest way to start and publish your Jekyll powered blog. 100% compatible with GitHub pages.  
+Course Link: https://csc309-fall-2016.github.io/info.html
 
-## Usage
+## To add info to the course:
 
-### 1. Create a Repo
-- Go to <https://github.com> and create a new repository named *USERNAME.github.com*  
+### 1. Install RVM:
+<pre><code>$ gpg --keyserver hkp://keys.gnupg.net --recv-keys 409B6B1796C275462A1703113804BB82D39DC0E3
+$ curl -sSL https://get.rvm.io | bash -s stable</pre></code>
+You might need to  source the RVM config file. Read the instructions on screen carefully.
 
-### 2. Install Jekyll-Bootstrap-3  
-<pre>
-  <code>
-    $ git clone https://github.com/dbtek/jekyll-bootstrap-3 USERNAME.github.com
-    $ cd USERNAME.github.com
-    $ git remote set-url origin git@github.com:USERNAME/USERNAME.github.com.git
-    $ git push origin master  
-  </code>
-</pre>  
-### 3. Enjoy !
-- After giving 10 mins to GitHub of course.  
+### 2. Use Latest Ruby:
+<pre><code>$ rvm --default use 2.3.0</pre></code>
 
-For original project's usage and documentation please see: <http://jekyllbootstrap.com>  
+### 3. Install Bundler (dependancy manager):
+<pre><code>$ gem install bundler</pre></code>
 
+### 4. Install Dependencies:
+<pre><code>$ bundle install</pre></code>
 
-### Themes
+### 5. Serve Local:
+<pre><code>$ jekyll serve</pre></code>
 
-Quickly install and use lovely themes with Jekyll Bootstrap 3. Visit [theme gallery](http://jekyllbootstrap3.tk/preview/).
+This should start a local server on http://localhost:4000
 
-## License
+### 6. Make changes
+You can make changes anywhere in the posts/layouts. This might be a good place to start: https://jekyllrb.com/docs/. Generally it's a better idea to branch out your changes and then push them.
+<pre><code>$ git checkout -b branchname</pre></code>
 
-[MIT](http://opensource.org/licenses/MIT)
+### 7. Push changes
+The changes made should reload live on your local server. Once you're satisfied push changes to your fork.
+<pre><code>$ git push origin branchname</pre></code>
 
+### 8. Create Pull Request.
+Just go to the original repo and create a pull request from your new work.
 
-[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/dbtek/jekyll-bootstrap-3/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
-
+Enjoy the Course!
