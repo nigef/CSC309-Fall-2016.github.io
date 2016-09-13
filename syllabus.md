@@ -1,12 +1,12 @@
 ---
 layout: page
-title: CSC309H Course Syllabus Fall 2016
+title: CSC309 Course Syllabus Fall 2016
 permalink: /syllabus/
 ---
 
 ## Overview
 
-Welcome to CSC309H: Programming on the Web!
+Welcome to CSC309: Programming on the Web!
 
 ### Calendar Description
 

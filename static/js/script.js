@@ -14,7 +14,7 @@ WebFont.load({
 /** Menu icon */
 
 var showMenuClass = 'showmenu';
-var elMenu = document.getElementById('mobile-menu');
+var elMenu = document.getElementById('js-mobile-menu');
 
 var closeMenu = function (e) {
   e.stopPropagation();
@@ -27,7 +27,7 @@ var closeMenu = function (e) {
   document.body.removeEventListener('click', closeMenu);
 };
 
-document.getElementById('mobile-menu-icon').addEventListener('click', function (e) {
+document.getElementById('js-mobile-menu-trigger').addEventListener('click', function (e) {
   e.stopPropagation();
   e.preventDefault();
 
@@ -50,6 +50,6 @@ var scrollTop = function () {
   }
 };
 
-document.getElementById('js_scroll_top').addEventListener('click', scrollTop);
+document.getElementById('js-scroll-top').addEventListener('click', scrollTop);
 
 })();

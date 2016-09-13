@@ -1,0 +1,86 @@
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+::selection {
+  background-color: #d5d5d5;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+html {
+  background: $grey-200;
+  box-sizing: border-box;
+  color: $grey-700;
+}
+
+body {
+  font: 400 16px/1.5 'Open Sans', 'Helvetica', 'Arial', sans-serif;
+  margin: 0 auto;
+  max-width: 1250px;
+  padding: 0 1em;
+  width: 100%;
+}
+
+svg {
+  fill: currentColor;
+  stroke: currentColor;
+}
+
+
+// Text
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 300;
+}
+
+a {
+  color: $brand;
+  cursor: pointer;
+  text-decoration: none;
+
+  &:hover {
+    color: $grey-700;
+    text-decoration: underline;
+  }
+}
+
+p + p {
+  margin-top: 1.5em;
+}
+
+
+// Tables
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th,
+td {
+  padding: 0.5em;
+}
+
+th {
+  border-bottom: 2px solid $grey-400;
+  text-align: left;
+}
+
+td {
+  border-bottom: 1px solid lighten($grey-400, 50%);
+  border-top: 1px solid lighten($grey-400, 50%);
+  text-align: left;
+}

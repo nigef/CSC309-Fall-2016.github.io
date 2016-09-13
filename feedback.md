@@ -11,6 +11,9 @@ Please do not use this form to ask personal questions (about accounts, marks, as
 
 Please do not use this form to ask ordinary questions (about assignments, lecture or course policies) when you don't particularly need to be anonymous. Instead, post these questions on the discussion board where the most relevant instructor will answer them.
 
+
+## Feedback form
+
 <form method="post" action="https://mcs.utm.utoronto.ca/~peters43/cgi-bin/anon_feedback.cgi" target="_blank">
   <input type="hidden" name="class" value="StG_CSC369_Reid">
 

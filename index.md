@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Welcome to CSC309H Fall 2016
+title: Welcome to CSC309 Fall 2016
 ---
 
 ## Course Description
@@ -67,6 +67,7 @@ Please read and make sure that you understand the [course syllabus](/syllabus).
         <td>
           <b>Rachel Franz</b>
         </td>
+        <td></td>
       </tr>
     </tbody>
   </table>
