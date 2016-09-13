@@ -35,7 +35,7 @@ Please read and make sure that you understand the <a href="{{ BASE_PATH }}info.h
 		<th>Section</th><th>Lectures</th><th>Room</th><th>Tutorial time</th><th>Room</th>
 	</tr>
 	<tr>
-		<td>L0101</td><td>TR 1-3</td><td>MP 202</td><td>T 1</td><td>BA 3175/3185/3195</td>
+		<td>L0101</td><td>R 1-3</td><td>MP 202</td><td>T 1</td><td>BA 3175/3185/3195</td>
 	</tr>
 	<tr>
 	</tr>

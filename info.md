@@ -50,7 +50,7 @@ At the end of this course you will be able to:
 
 - **Website:**: https://csc309-fall-2016.github.io/
 
-One of the nice things about use Github for the course web site is that you can contribute to the course web site. If you see something on the course web site that should be fixed, or want to improve the UI, please feel free to submit a pull request.
+One of the nice things about using Github for the course web site is that you can contribute to the course web site. If you see something on the course web site that should be fixed, or want to improve the UI, please feel free to submit a pull request.
 
 You are especially encouraged to add to the resources page.  If you find particularly useful tutorials, guides, blog posts, please add them to the resources page with an annotation stating what the resource is about and what makes it useful.
 
