@@ -31,6 +31,6 @@ The changes made should reload live on your local server. Once you're satisfied 
 <pre><code>$ git push origin branchname</pre></code>
 
 ### 8. Create Pull Request.
-Just go to the original repo and create a pull request from your new work.
+From your new work, click "New Pull Request" button, and it should do the rest.
 
 Enjoy the Course!
