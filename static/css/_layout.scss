@@ -1,0 +1,215 @@
+// Page layout
+// ----------------------------------------------------------
+
+.accessibility-aid {
+  clip: rect(1px, 1px, 1px, 1px);
+  height: 1px;
+  left: 0;
+  margin: 0;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  width: 1px;
+
+  &:focus {
+    background: $grey-200;
+    clip: auto;
+    font-weight: 600;
+    height: auto;
+    padding: 0.5em 1em;
+    width: auto;
+    z-index: 100;
+  }
+}
+
+
+// Header
+
+.header {
+  display: table;
+  padding: 1.5em 1em;
+  width: 100%;
+}
+
+  .header__logo,
+  .header__nav {
+    display: table-cell;
+    vertical-align: middle;
+  }
+
+.header__logo,
+.header__logo:hover,
+.header__logo:visited {
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+  .header__logo__title {
+    color: $grey-700;
+    font-size: 2.5em;
+    letter-spacing: 4px;
+    line-height: 56px;
+    position: relative;
+    z-index: 1;
+
+    &::before {
+      background-color: rgba($brand, 0.75);
+      border-radius: 50%;
+      color: $grey-100;
+      content: 'CSC309';
+      height: 4.5rem;
+      left: -0.5rem;
+      overflow: hidden;
+      padding: 0.5rem;
+      position: absolute;
+      top: -0.5rem;
+      transition: background-color 0.2s;
+      width: 4.5rem;
+    }
+
+    &:hover {
+      &::before {
+        background-color: $brand;
+      }
+    }
+  }
+
+  .header__logo__subtitle {
+    color: $grey-300;
+    margin-top: 0.5em;
+  }
+
+.header__nav {
+  padding-left: 1em;
+  text-align: right;
+
+  @include mobile {
+    background-color: $grey-100;
+    border: 1px solid lighten($grey-700, 50%);
+    margin-top: 0;
+    padding-left: 0;
+    position: fixed;
+    right: 0.5em;
+    top: 0.5em;
+    z-index: 1000000;
+  }
+}
+
+  .header__nav__icon {
+    color: $grey-700;
+    display: none;
+    float: right;
+    line-height: 1;
+    padding: 0.5em;
+
+    &:hover {
+      text-decoration: none;
+    }
+
+    span,
+    svg {
+      display: inline-block;
+      vertical-align: middle;
+    }
+
+    span {
+      margin-right: 0.5em;
+    }
+
+    svg {
+      height: 0.8em;
+      width: 1em;
+    }
+
+    @include mobile {
+      display: block;
+    }
+  }
+
+  .header__nav__menu {
+    @include mobile {
+      border-top: 1px solid lighten($grey-700, 50%);
+      clear: both;
+      display: none;
+      margin-bottom: 0.5em;
+
+      body.showmenu & {
+        display: block;
+      }
+    }
+  }
+
+  .header__nav__menu__item {
+    border-bottom: 2px solid transparent;
+    font-weight: 300;
+    padding: 0.25em 0;
+    transition: border-color 0.2s;
+    white-space: nowrap;
+
+    &:hover {
+      border-color: $brand;
+      color: $brand;
+      text-decoration: none;
+    }
+
+    + .header__nav__menu__item {
+      margin-left: 1em;
+    }
+
+    @include mobile {
+      border-bottom: none;
+      border-right: 2px solid transparent;
+      color: $grey-700;
+      display: block;
+      line-height: 1;
+      padding: 0.5em;
+
+      + .header__nav__menu__item {
+        margin-left: 0;
+      }
+    }
+  }
+
+  .header__nav__menu__item--current {
+    border-color: $grey-300;
+  }
+
+
+// Footer
+
+.footer {
+  color: $grey-400;
+  display: table;
+  font-size: 0.75em;
+  width: 100%;
+}
+
+  .footer__top,
+  .footer__info {
+    display: table-cell;
+    vertical-align: middle;
+    padding: 1rem;
+    width: 50%;
+  }
+
+  .footer__top button {
+    border-color: 1px solid $grey-400;
+    color: $grey-400;
+    padding: 0.5em 1em;
+
+    svg {
+      margin-right: 0.5em;
+    }
+  }
+
+  .footer__info {
+    text-align: right;
+  }
+
+
+// Page Content
+
+.page-content {
+  background-color: $grey-100;
+  padding: 1.5em 1em;
+}

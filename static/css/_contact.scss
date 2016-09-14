@@ -1,0 +1,21 @@
+.contact {
+  border: 1px solid $grey-200;
+  display: table;
+  padding: 0.5em;
+
+  img,
+  dl {
+    display: table-cell;
+    vertical-align: top;
+
+    @include mobile {
+      display: block;
+    }
+  }
+
+  dl {
+    @include mobile {
+      margin-top: 1em;
+    }
+  }
+}

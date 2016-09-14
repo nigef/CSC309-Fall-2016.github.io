@@ -1,0 +1,42 @@
+- week: 12 Sept
+  topic: Introduction and history
+
+- week: 19 Sept
+  topic: Browser architecture; HTML and CSS
+
+- week: 26 Sept
+  topic: JavaScript
+
+- week: 3 Oct
+  topic: jQuery and React
+
+- week: 10 Oct
+  topic: AJAX and REST
+  notes: No lab, A1 due
+
+- week: 17 Oct
+  topic: Forms, Node.js - Event-based programming
+
+- week: 24 Oct
+  topic: Sessions and Cookies, Testing
+
+- week: 31 Oct
+  topic: Database backends
+  notes: A2 due
+
+- week: 7 Nov
+  topic: Architecture
+  notes: "Fall break: no lab, Project Proposal due"
+
+- week: 14 Nov
+  topic: Security
+
+- week: 21 Nov
+  topic: Advanced topics TBD
+
+- week: 28 Nov
+  topic: TBD
+  notes: Project due
+
+- week: 5 Dec
+  topic: Demos

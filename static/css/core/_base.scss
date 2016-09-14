@@ -1,0 +1,154 @@
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+::selection {
+  background-color: $grey-200;
+}
+
+::-moz-selection {
+  background-color: $grey-200;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+html {
+  background: $grey-200;
+  box-sizing: border-box;
+  color: $grey-700;
+}
+
+body {
+  font: 400 16px/1.5 'Open Sans', 'Helvetica', 'Arial', sans-serif;
+  margin: 0 auto;
+  max-width: 1250px;
+  padding: 0 1em;
+}
+
+svg {
+  fill: currentColor;
+  stroke: currentColor;
+}
+
+
+// Forms
+
+button,
+input[type='submit'],
+input[type='reset'] {
+  background: transparent;
+  border: 1px solid $grey-700;
+  cursor: pointer;
+  padding: 0.5em;
+}
+
+button,
+input,
+textarea {
+  color: inherit;
+  font: inherit;
+}
+
+
+// Text
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  line-height: 1.25;
+  font-weight: 300;
+  margin: 1em 0 0.5em;
+}
+
+h1 {
+  font-size: 2.5em;
+}
+
+h2 {
+  font-size: 1.85em;
+  letter-spacing: -1.25px;
+}
+
+h3 {
+  font-size: 1.65em;
+  letter-spacing: -1px;
+}
+
+h4 {
+  font-size: 1.35em;
+  letter-spacing: -1px;
+}
+
+a {
+  color: $brand;
+  cursor: pointer;
+  text-decoration: none;
+
+  &:hover {
+    color: $grey-700;
+    text-decoration: underline;
+  }
+}
+
+p + p {
+  margin-top: 1.5em;
+}
+
+dl {
+  @include clear;
+
+  dt {
+    display: block;
+    float: left;
+    font-weight: 700;
+    text-align: right;
+    width: 25%;
+  }
+
+  dd {
+    display: block;
+    float: left;
+    margin-bottom: 0.5rem;
+    padding-left: 1rem;
+    width: 75%;
+  }
+}
+
+
+// Tables
+
+table {
+  border-collapse: collapse;
+  display: block;
+  max-width: 100%;
+  overflow-x: auto;
+  width: 100%;
+}
+
+th,
+td {
+  padding: 0.5em;
+}
+
+th {
+  border-bottom: 2px solid $grey-400;
+  text-align: left;
+  vertical-align: bottom;
+}
+
+td {
+  border-bottom: 1px solid lighten($grey-400, 50%);
+  border-top: 1px solid lighten($grey-400, 50%);
+  text-align: left;
+}

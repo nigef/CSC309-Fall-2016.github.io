@@ -1,0 +1,19 @@
+# Generated static site
+_site
+
+# OS Files
+Thumbs.db
+.DS_Store
+
+# Temporary files
+.sass-cache/
+
+# IDE files
+.idea
+
+# Bundler
+/.bundle/
+/vendor/
+
+# IDEs
+*sublime*
