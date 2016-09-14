@@ -142,7 +142,6 @@
   .header__nav__menu__item {
     border-bottom: 2px solid transparent;
     font-weight: 300;
-    padding: 0.25em 0;
     transition: border-color 0.2s;
     white-space: nowrap;
 
@@ -182,6 +181,7 @@
   display: table;
   font-size: 0.75em;
   width: 100%;
+  margin: 2em 0;
 }
 
   .footer__top,
@@ -212,4 +212,6 @@
 .page-content {
   background-color: $grey-100;
   padding: 1.5em 1em;
+  border-radius: 4px;
+  box-shadow: 0 15px 35px rgba(50,50,90,.1), 0 5px 15px rgba(0,0,0,.1);
 }
