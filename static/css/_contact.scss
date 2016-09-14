@@ -7,6 +7,7 @@
   dl {
     display: table-cell;
     vertical-align: top;
+    margin-right: 0.5em;
 
     @include mobile {
       display: block;

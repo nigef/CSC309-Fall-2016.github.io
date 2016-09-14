@@ -138,6 +138,10 @@ table {
   max-width: 100%;
   overflow-x: auto;
   width: 100%;
+
+  @include mobile {
+    display: block;
+  }
 }
 
 th,
