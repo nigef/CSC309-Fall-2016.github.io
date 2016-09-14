@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 title: Welcome to CSC309 Fall 2016
 ---
 
@@ -20,9 +20,11 @@ Please read and make sure that you understand the [course syllabus](/syllabus).
 
 ## Contact information
 
+### Instructor
+
 <div class="contact">
-  <img src="/static/img/people/karen-reid.jpg" width="200"> <br />
-  <dl class="dl-horizontal">
+  <img src="/static/img/people/karen-reid.jpg" width="200">
+  <dl>
     <dt>Instructor:</dt>
     <dd>Karen Reid</dd>
     <dt>Email:</dt>
@@ -34,41 +36,41 @@ Please read and make sure that you understand the [course syllabus](/syllabus).
   </dl>
 </div>
 
-<div class="meetings">
-  <table class="table">
-    <tbody>
-      <tr>
-        <td>
-          <img src="/static/img/people/nishant-arora.jpg" width="200"> <br />
-          <b>Nishant Arora</b>
-        </td>
-        <td>
-          <img src="/static/img/people/eugene.png" width="200"> <br />
-          <b>Eugene Cheung</b>
-        </td>
-        <td>
-          <img src="/static/img/people/simon-cook.jpg" width="200"> <br />
-          <b>Simon Cook</b>
-        </td>
-        <td>
-          <img src="/static/img/people/yizheng-ding.jpg" width="200"> <br />
-          <b>Yizheng Ding</b>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <img src="/static/img/people/Nigel-Fong.jpg" width="200"> <br />
-          <b>Nigel Fong</b>
-        </td>
-        <td>
-          <img src="/static/img/people/candice-lin.jpg" width="200"> <br />
-          <b>Candice Lin</b>
-        </td>
-        <td>
-          <b>Rachel Franz</b>
-        </td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-</div>
+### Teaching Assistants
+
+<table>
+  <tbody>
+    <tr>
+      <td>
+        <img src="/static/img/people/nishant-arora.jpg" width="200"> <br />
+        <p>Nishant Arora</p>
+      </td>
+      <td>
+        <img src="/static/img/people/eugene.png" width="200"> <br />
+        <p>Eugene Cheung</p>
+      </td>
+      <td>
+        <img src="/static/img/people/simon-cook.jpg" width="200"> <br />
+        <p>Simon Cook</p>
+      </td>
+      <td>
+        <img src="/static/img/people/yizheng-ding.jpg" width="200"> <br />
+        <p>Yizheng Ding</p>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <img src="/static/img/people/Nigel-Fong.jpg" width="200"> <br />
+        <p>Nigel Fong</p>
+      </td>
+      <td>
+        <img src="/static/img/people/candice-lin.jpg" width="200"> <br />
+        <p>Candice Lin</p>
+      </td>
+      <td>
+        <p>Rachel Franz</p>
+      </td>
+      <td></td>
+    </tr>
+  </tbody>
+</table>

@@ -17,7 +17,7 @@ permalink: /resources/
 
   A huge collection of tutorials for various programming languages and tools, including many pertaining to web development.
 
-## Javascript
+## JavaScript
 
 Books:
 
@@ -27,7 +27,7 @@ Books:
 
   - [12 books every javascript developer should read](https://medium.com/javascript-scene/12-books-every-javascript-developer-should-read-9da76157fb3#.dyuape9ra)
 
-   An article the does a good job of reviewing the most popular Javascript books.
+   An article the does a good job of reviewing the most popular JavaScript books.
 
    - [You Don't Know JS](https://github.com/getify/You-Dont-Know-JS) by Kyle Simpson
 

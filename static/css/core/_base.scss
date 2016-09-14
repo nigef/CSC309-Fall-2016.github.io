@@ -7,12 +7,17 @@
 }
 
 ::selection {
-  background-color: #d5d5d5;
+  background-color: $grey-200;
+}
+
+::-moz-selection {
+  background-color: $grey-200;
 }
 
 html,
 body {
   height: 100%;
+  width: 100%;
 }
 
 html {
@@ -26,12 +31,30 @@ body {
   margin: 0 auto;
   max-width: 1250px;
   padding: 0 1em;
-  width: 100%;
 }
 
 svg {
   fill: currentColor;
   stroke: currentColor;
+}
+
+
+// Forms
+
+button,
+input[type='submit'],
+input[type='reset'] {
+  background: transparent;
+  border: 1px solid $grey-700;
+  cursor: pointer;
+  padding: 0.5em;
+}
+
+button,
+input,
+textarea {
+  color: inherit;
+  font: inherit;
 }
 
 
@@ -43,7 +66,28 @@ h3,
 h4,
 h5,
 h6 {
+  line-height: 1.25;
   font-weight: 300;
+  margin: 1em 0 0.5em;
+}
+
+h1 {
+  font-size: 2.5em;
+}
+
+h2 {
+  font-size: 1.85em;
+  letter-spacing: -1.25px;
+}
+
+h3 {
+  font-size: 1.65em;
+  letter-spacing: -1px;
+}
+
+h4 {
+  font-size: 1.35em;
+  letter-spacing: -1px;
 }
 
 a {
@@ -61,11 +105,34 @@ p + p {
   margin-top: 1.5em;
 }
 
+dl {
+  @include clear;
+
+  dt {
+    display: block;
+    float: left;
+    font-weight: 700;
+    text-align: right;
+    width: 25%;
+  }
+
+  dd {
+    display: block;
+    float: left;
+    margin-bottom: 0.5rem;
+    padding-left: 1rem;
+    width: 75%;
+  }
+}
+
 
 // Tables
 
 table {
   border-collapse: collapse;
+  display: block;
+  max-width: 100%;
+  overflow-x: auto;
   width: 100%;
 }
 
@@ -77,6 +144,7 @@ td {
 th {
   border-bottom: 2px solid $grey-400;
   text-align: left;
+  vertical-align: bottom;
 }
 
 td {

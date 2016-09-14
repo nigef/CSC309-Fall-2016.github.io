@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: Summer Internships
 author: Karen Reid
 categories:

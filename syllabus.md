@@ -26,7 +26,7 @@ At the end of this course you will be able to:
 * Write and debug programs that manipulate the DOM.
 * Use browser developer tools to analyze and debug a web application.
 * Describe and use multiple models for communication between web server and client.
-* Build a web application using a variety of Javascript libraries and frameworks including Node.js and React (among others).
+* Build a web application using a variety of JavaScript libraries and frameworks including Node.js and React (among others).
 
 ## Contact information
 

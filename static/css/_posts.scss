@@ -14,25 +14,16 @@
 }
 
 .post {
-  padding: 1.5em 0;
-
   pre,
   code {
-    background-color: #eef;
-    border-radius: 3px;
-    border: 1px solid #d5d5e9;
-    font-size: 15px;
+    background-color: $grey-200;
+    border: 1px solid $grey-400;
     overflow: scroll;
-    padding: 8px 12px;
+    padding: 0.5em 1em;
   }
 
   code {
-    padding: 1px 5px;
-  }
-
-  ul,
-  ol {
-    margin-left: 1.35em;
+    padding: 0.125em 0.35em;
   }
 
   pre code {
@@ -41,33 +32,29 @@
     padding-right: 0;
   }
 
-  pre.terminal {
-    background-color: #333;
-    border: 1px solid #000;
-    color: $grey-100;
-
-    code {
-      background-color: #333;
-    }
+  ul,
+  ol {
+    margin-left: 1.35em;
   }
 }
 
 .post__header {
   h1 {
-    font-size: 42px;
-    font-weight: 300;
-    letter-spacing: -1.75px;
     margin: 0 0 0.5em;
-  }
-
-  .meta {
-    color: #818181;
-    margin-top: 5px;
   }
 }
 
+  .post__header__meta {
+    color: $grey-300;
+    margin-bottom: 0.5em;
+  }
+
 .post__content {
   position: relative;
+
+  > * {
+    margin: 1em 0;
+  }
 
   blockquote {
     border-left: 4px solid #e8e8e8;
@@ -81,7 +68,8 @@
 
   ul,
   ol {
-    padding-left: 20px;
+    margin-left: 0;
+    padding-left: 1.5em;
   }
 
   img {

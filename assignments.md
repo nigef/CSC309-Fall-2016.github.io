@@ -14,7 +14,7 @@ Please submit remark requestion via this [simple form](https://wwwcgi.cdf.toront
 
 | Assignment | Topic | Due Date |
 | ---------- | ----- | -------- |
-| A1 | Javascript and the DOM | Friday Oct 14, 10 p.m. |
+| A1 | JavaScript and the DOM | Friday, Oct 14, 10 p.m. |
 | A2 | REST | Friday, Nov 4, 10 p.m. |
 | Project | Proposal | Friday, Nov 11, 10 p.m. |
 | Project | Final Product | Friday, Dec 2, 10 p.m. |

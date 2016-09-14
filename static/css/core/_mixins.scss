@@ -3,3 +3,12 @@
     @content;
   }
 }
+
+@mixin clear() {
+  &::before,
+  &::after {
+    display: table;
+    content: '';
+    clear: both;
+  }
+}
