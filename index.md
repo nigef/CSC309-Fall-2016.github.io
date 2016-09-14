@@ -10,6 +10,7 @@ This course provides an introduction to the technologies used for developing Web
 Please read and make sure that you understand the [course syllabus](/syllabus).
 
 
+<<<<<<< HEAD
 ## Schedule
 
 | Section | Lectures | Room | Tutorial time | Room |
@@ -42,8 +43,10 @@ Please read and make sure that you understand the [course syllabus](/syllabus).
   <tbody>
     <tr>
       <td>
+        <a href="https://github.com/whizzzkid/" target="_blank">
         <img src="/static/img/people/nishant-arora.jpg" width="200"> <br />
         <p>Nishant Arora</p>
+		</a>
       </td>
       <td>
         <img src="/static/img/people/eugene.png" width="200"> <br />
