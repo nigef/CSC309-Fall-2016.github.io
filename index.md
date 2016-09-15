@@ -23,7 +23,7 @@ Please read and make sure that you understand the [course syllabus](/syllabus).
 ### Instructor
 
 <div class="contact">
-  <img src="/static/img/people/karen-reid.jpg" width="200">
+  <img src="/static/img/people/karen.jpg" width="200">
   <dl>
     <dt>Instructor:</dt>
     <dd>Karen Reid</dd>
@@ -43,30 +43,30 @@ Please read and make sure that you understand the [course syllabus](/syllabus).
     <tr>
       <td>
         <a href="https://github.com/whizzzkid/" target="_blank">
-        <img src="/static/img/people/nishant-arora.jpg" width="200"> <br />
-        <p>Nishant Arora</p>
-		</a>
+          <img src="/static/img/people/nishant.jpg" width="200">
+          <p>Nishant Arora</p>
+        </a>
       </td>
       <td>
-        <img src="/static/img/people/eugene.png" width="200"> <br />
+        <img src="/static/img/people/eugene.png" width="200">
         <p>Eugene Cheung</p>
       </td>
       <td>
-        <img src="/static/img/people/simon-cook.jpg" width="200"> <br />
+        <img src="/static/img/people/simon.jpg" width="200">
         <p>Simon Cook</p>
       </td>
       <td>
-        <img src="/static/img/people/yizheng-ding.jpg" width="200"> <br />
+        <img src="/static/img/people/yizheng.jpg" width="200">
         <p>Yizheng Ding</p>
       </td>
     </tr>
     <tr>
       <td>
-        <img src="/static/img/people/Nigel-Fong.jpg" width="200"> <br />
+        <img src="/static/img/people/nigel.jpg" width="200">
         <p>Nigel Fong</p>
       </td>
       <td>
-        <img src="/static/img/people/candice-lin.jpg" width="200"> <br />
+        <img src="/static/img/people/candice.jpg" width="200">
         <p>Candice Lin</p>
       </td>
       <td>
