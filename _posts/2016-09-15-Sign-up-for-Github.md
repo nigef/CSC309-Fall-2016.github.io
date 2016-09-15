@@ -15,6 +15,7 @@ Before we can get started, you need to do a few things:
 2. Complete this [registration form](https://goo.gl/forms/5yFRKny3oIIJtsC62) by **Sunday, Sept 18 at 9 pm**
 
    Please double check the information you enter, before submitting this form, and make sure that:
+   
      - There are no typos
      - There are no extra spaces
      - The capitalization (i.e. upper/lower case) is correct
