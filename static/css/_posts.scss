@@ -4,8 +4,9 @@
 .posts {
   list-style-type: none;
 
-  li + li {
-    margin-top: 1.5em;
+  ul,
+  ol {
+    margin: 1em 0 1em 1.25em;
   }
 
   p {
@@ -14,6 +15,11 @@
 }
 
 .post {
+  + .post {
+    border-top: 1px solid $grey-200;
+    margin-top: 1.5em;
+  }
+
   pre,
   code {
     background-color: $grey-200;
