@@ -38,41 +38,42 @@ Please read and make sure that you understand the [course syllabus](/syllabus).
 
 ### Teaching Assistants
 
-<table>
-  <tbody>
-    <tr>
-      <td>
+<section class="assistants">
+    <figure>
         <a href="https://github.com/whizzzkid/" target="_blank">
-          <img src="/static/img/people/nishant.jpg" width="200">
-          <p>Nishant Arora</p>
+            <img src="/static/img/people/nishant-arora.jpg">
+            <figcaption>Nishant Arora</figcaption>
         </a>
-      </td>
-      <td>
-        <img src="/static/img/people/eugene.png" width="200">
-        <p>Eugene Cheung</p>
-      </td>
-      <td>
-        <img src="/static/img/people/simon.jpg" width="200">
-        <p>Simon Cook</p>
-      </td>
-      <td>
-        <img src="/static/img/people/yizheng.jpg" width="200">
-        <p>Yizheng Ding</p>
-      </td>
-    </tr>
-    <tr>
-      <td>
-        <img src="/static/img/people/nigel.jpg" width="200">
-        <p>Nigel Fong</p>
-      </td>
-      <td>
-        <img src="/static/img/people/candice.jpg" width="200">
-        <p>Candice Lin</p>
-      </td>
-      <td>
-        <p>Rachel Franz</p>
-      </td>
-      <td></td>
-    </tr>
-  </tbody>
-</table>
+    </figure>
+
+    <figure>
+        <img src="/static/img/people/eugene.png">
+        <figcaption>Eugene Cheung</figcaption>
+    </figure>
+
+    <figure>
+        <img src="/static/img/people/simon-cook.jpg">
+        <figcaption>Simon Cook</figcaption>
+    </figure>
+
+    <figure>
+        <img src="/static/img/people/yizheng-ding.jpg">
+        <figcaption>Yizheng Ding</figcaption>
+    </figure>
+    
+    <figure>
+        <img src="/static/img/people/Nigel-Fong.jpg">
+        <figcaption>Nigel Fong</figcaption>
+    </figure>
+
+    <figure>
+        <img src="/static/img/people/candice-lin.jpg">
+        <figcaption>Candice Lin</figcaption>
+    </figure>
+    
+    <figure>
+        <img src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs">
+        <figcaption>Rachel Franz</figcaption>
+    </figure>
+
+</section>
