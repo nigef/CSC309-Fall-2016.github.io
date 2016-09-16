@@ -104,29 +104,58 @@
     width: 100%;
 
     &:hover {
-      text-decoration: none;
       color: $brand;
-    }
+      text-decoration: none;
 
-    span,
-    svg {
-      display: inline-block;
-      vertical-align: middle;
-    }
-
-    span {
-      margin-right: 0.5em;
-    }
-
-    svg {
-      height: 0.8em;
-      width: 1em;
+      .header__nav__icon__lines__line {
+        background: $brand;
+      }
     }
 
     @include mobile {
       display: block;
     }
   }
+
+    .header__nav__icon__text,
+    .header__nav__icon__lines {
+      display: inline-block;
+      vertical-align: middle;
+    }
+
+      .header__nav__icon__text {
+        margin-right: 0.5em;
+      }
+
+      .header__nav__icon__lines__line {
+        background: $grey-700;
+        height: 0.125em;
+        transition: transform 0.2s, opacity 0.2s;
+        width: 1.05em;
+
+        + .header__nav__icon__lines__line {
+          margin-top: 0.25em;
+        }
+
+        &:nth-child(1),
+        &:nth-child(3) {
+          transform-origin: center right;
+        }
+      }
+
+        body.showmenu .header__nav__icon__lines__line {
+          &:nth-child(1) {
+            transform: rotate(-45deg);
+          }
+
+          &:nth-child(3) {
+            transform: rotate(45deg);
+          }
+
+          &:nth-child(2) {
+            opacity: 0;
+          }
+        }
 
   .header__nav__menu {
     @include mobile {
@@ -213,9 +242,9 @@
 
 .page-content {
   background-color: $grey-100;
+  border-radius: 0.25em;
+  box-shadow: 0 1em 2.15em rgba($grey-700, 0.1), 0 0.35em 1em rgba($grey-700, 0.1);
   padding: 1.5em 1em;
-  border-radius: 4px;
-  box-shadow: 0 15px 35px rgba(50,50,90,.1), 0 5px 15px rgba(0,0,0,.1);
 }
 
 
