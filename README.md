@@ -10,7 +10,7 @@ Enjoy the course!
 
 ## Development
 
-### 1. Fork and clone the repo
+### 0. Fork and clone the repo
 From GitHub, fork this repo to your account, then clone it to your local machine.
 
 ### 1. Install [RVM](https://rvm.io/)

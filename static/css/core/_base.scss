@@ -105,8 +105,9 @@ a {
   }
 }
 
-p + p {
-  margin-top: 1.5em;
+p + p,
+li + li {
+  margin-top: 1.25em;
 }
 
 dl {
