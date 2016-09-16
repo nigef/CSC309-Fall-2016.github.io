@@ -39,41 +39,40 @@ Please read and make sure that you understand the [course syllabus](/syllabus).
 ### Teaching Assistants
 
 <section class="assistants">
-    <figure>
-        <a href="https://github.com/whizzzkid/" target="_blank">
-            <img src="/static/img/people/nishant-arora.jpg">
-            <figcaption>Nishant Arora</figcaption>
-        </a>
-    </figure>
+  <figure>
+    <a href="https://github.com/whizzzkid/" target="_blank">
+      <img src="/static/img/people/nishant.jpg">
+      <figcaption>Nishant Arora</figcaption>
+    </a>
+  </figure>
 
-    <figure>
-        <img src="/static/img/people/eugene.png">
-        <figcaption>Eugene Cheung</figcaption>
-    </figure>
+  <figure>
+    <img src="/static/img/people/eugene.jpg">
+    <figcaption>Eugene Cheung</figcaption>
+  </figure>
 
-    <figure>
-        <img src="/static/img/people/simon-cook.jpg">
-        <figcaption>Simon Cook</figcaption>
-    </figure>
+  <figure>
+    <img src="/static/img/people/simon.jpg">
+    <figcaption>Simon Cook</figcaption>
+  </figure>
 
-    <figure>
-        <img src="/static/img/people/yizheng-ding.jpg">
-        <figcaption>Yizheng Ding</figcaption>
-    </figure>
-    
-    <figure>
-        <img src="/static/img/people/Nigel-Fong.jpg">
-        <figcaption>Nigel Fong</figcaption>
-    </figure>
+  <figure>
+    <img src="/static/img/people/yizheng.jpg">
+    <figcaption>Yizheng Ding</figcaption>
+  </figure>
 
-    <figure>
-        <img src="/static/img/people/candice-lin.jpg">
-        <figcaption>Candice Lin</figcaption>
-    </figure>
-    
-    <figure>
-        <img src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs">
-        <figcaption>Rachel Franz</figcaption>
-    </figure>
+  <figure>
+    <img src="/static/img/people/nigel.jpg">
+    <figcaption>Nigel Fong</figcaption>
+  </figure>
 
+  <figure>
+    <img src="/static/img/people/candice.jpg">
+    <figcaption>Candice Lin</figcaption>
+  </figure>
+
+  <figure>
+    <img src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs">
+    <figcaption>Rachel Franz</figcaption>
+  </figure>
 </section>
