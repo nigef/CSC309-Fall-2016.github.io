@@ -41,6 +41,15 @@ svg {
 
 // Forms
 
+form {
+  border: 1px solid $grey-200;
+  padding: 0.5em;
+}
+
+label {
+  display: block;
+}
+
 button,
 input[type='submit'],
 input[type='reset'] {
@@ -48,6 +57,10 @@ input[type='reset'] {
   border: 1px solid $grey-700;
   cursor: pointer;
   padding: 0.5em;
+
+  &:hover {
+    background: $grey-200;
+  }
 }
 
 button,
@@ -56,9 +69,17 @@ textarea {
   color: inherit;
   font: inherit;
 }
+
+input[type='text'],
 textarea {
-  padding: 0.5em;
+  border: 1px solid $grey-200;
+  margin: 0.5em 0;
+  width: 100%;
+}
+
+textarea {
   max-width: 100%;
+  padding: 0.5em;
 }
 
 
