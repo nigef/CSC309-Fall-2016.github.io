@@ -182,3 +182,10 @@ td {
   border-top: 1px solid lighten($grey-400, 70%);
   text-align: left;
 }
+
+
+// "Responsive" iframe
+
+.responsive-iframe iframe {
+  width: 100%;
+}
