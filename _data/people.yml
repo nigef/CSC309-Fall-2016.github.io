@@ -1,0 +1,24 @@
+# Each person has a `name` (required), `photo`, and `link`
+
+tas:
+  - name: Nishant Arora
+    photo: /static/img/people/nishant.jpg
+    link: https://github.com/whizzzkid/
+
+  - name: Eugene Cheung
+    photo: /static/img/people/eugene.jpg
+    link: https://github.com/arkon/
+
+  - name: Simon Cook
+    photo: /static/img/people/simon.jpg
+
+  - name: Yizheng Ding
+    photo: /static/img/people/yizheng.jpg
+
+  - name: Nigel Fong
+    photo: /static/img/people/nigel.jpg
+
+  - name: Candice Lin
+    photo: /static/img/people/candice.jpg
+
+  - name: Rachel Franz

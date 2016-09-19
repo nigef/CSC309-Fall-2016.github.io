@@ -39,40 +39,22 @@ Please read and make sure that you understand the [course syllabus](/syllabus).
 ### Teaching Assistants
 
 <section class="assistants">
-  <figure>
-    <a href="https://github.com/whizzzkid/" target="_blank">
-      <img src="/static/img/people/nishant.jpg">
-      <figcaption>Nishant Arora</figcaption>
+  {% for person in site.data.people.tas %}
+    {% if person.link %}
+    <a href="{{ person.link }}">
+    {% endif %}
+
+    <figure>
+      {% if person.photo %}
+        <img src="{{ person.photo }}" alt="Photo of {{ person.name }}">
+      {% else %}
+        <img src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs" alt="">
+      {% endif %}
+      <figcaption>{{ person.name }}</figcaption>
+    </figure>
+
+    {% if person.link %}
     </a>
-  </figure>
-
-  <figure>
-    <img src="/static/img/people/eugene.jpg">
-    <figcaption>Eugene Cheung</figcaption>
-  </figure>
-
-  <figure>
-    <img src="/static/img/people/simon.jpg">
-    <figcaption>Simon Cook</figcaption>
-  </figure>
-
-  <figure>
-    <img src="/static/img/people/yizheng.jpg">
-    <figcaption>Yizheng Ding</figcaption>
-  </figure>
-
-  <figure>
-    <img src="/static/img/people/nigel.jpg">
-    <figcaption>Nigel Fong</figcaption>
-  </figure>
-
-  <figure>
-    <img src="/static/img/people/candice.jpg">
-    <figcaption>Candice Lin</figcaption>
-  </figure>
-
-  <figure>
-    <img src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs">
-    <figcaption>Rachel Franz</figcaption>
-  </figure>
+    {% endif %}
+  {% endfor %}
 </section>
