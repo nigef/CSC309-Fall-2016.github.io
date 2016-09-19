@@ -19,9 +19,14 @@ permalink: /lectures/
     <tr>
       <td>1</td>
       <td>Sept 5</td>
-      <td>Intro, History, HTTP</td>
-      <td></td>
+      <td>Intro, History, HTML, CSS, GIT</td>
       <td>
+          <a href="http://www.w3schools.com/">W3C tutorials for HTML and CSS</a>
+      </td>
+      <td>
+          <a href="/lectures/w1-intro.pdf">Intro</a>
+          <a href="/lectures/w1-documents.pdf">HTML, CSS</a>
+          
       </td>
       <td>
       </td>
