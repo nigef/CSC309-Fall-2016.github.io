@@ -10,7 +10,7 @@ In CSC309, we will use [GitHub](https://github.com) to distribute individual cod
 
 Before we can get started, you need to do a few things:
 
-1. [Sign up for a GitHub account,](https://github.com/join?source=header-home) if you don't already have one.
+1. [Sign up for a GitHub account,](https://github.com/join?source=header-home) if you don't already have one. Even if you have one, [get a Student Developer Pack](https://education.github.com/pack/redeem/github). This get's you unlimited private repositories (normally $7/month) while you are a student.
 
 2. Complete this [registration form](https://goo.gl/forms/5yFRKny3oIIJtsC62) by **Sunday, Sept 18 at 9 pm**
 
