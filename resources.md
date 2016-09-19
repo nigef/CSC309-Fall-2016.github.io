@@ -4,6 +4,11 @@ title: Resources and Readings
 permalink: /resources/
 ---
 
+## Git
+
+  - [Git Instructions](/git-primer.html) for this course
+  - [Pro Git](https://git-scm.com/book/en/v2) book
+
 ## General sources
   - [w3schools](http://www.w3schools.com)
 
