@@ -17,11 +17,14 @@ Please do not use this form to ask ordinary questions (about assignments, lectur
 <form method="post" action="https://mcs.utm.utoronto.ca/~peters43/cgi-bin/anon_feedback.cgi" target="_blank">
   <input type="hidden" name="class" value="StG_CSC369_Reid">
 
-  (Optional) Your name: <input type="text" name="username"><br>
-  (Optional) Your email: <input type="text" name="email"><br>
-  Your message:<br>
-  <textarea name="comment" cols="78" rows="15" placeholder="Enter your feedback here..."></textarea>
-  <br>
-  <br>
-  <input type="submit" value="Submit Feedback"><br>
+  <label for="name">(Optional) Your name:</label>
+  <input type="text" id="name" name="username">
+
+  <label for="email">(Optional) Your email:</label>
+  <input type="text" id="email" name="email">
+
+  <label for="message">Your message:</label>
+  <textarea name="comment" id="message" cols="80" rows="15" placeholder="Enter your feedback here..."></textarea>
+
+  <input type="submit" value="Submit Feedback">
 </form>

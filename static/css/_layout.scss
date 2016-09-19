@@ -101,30 +101,61 @@
     float: right;
     line-height: 1;
     padding: 0.5em;
+    width: 100%;
 
     &:hover {
+      color: $brand;
       text-decoration: none;
-    }
 
-    span,
-    svg {
-      display: inline-block;
-      vertical-align: middle;
-    }
-
-    span {
-      margin-right: 0.5em;
-    }
-
-    svg {
-      height: 0.8em;
-      width: 1em;
+      .header__nav__icon__lines__line {
+        background: $brand;
+      }
     }
 
     @include mobile {
       display: block;
     }
   }
+
+    .header__nav__icon__text,
+    .header__nav__icon__lines {
+      display: inline-block;
+      vertical-align: middle;
+    }
+
+      .header__nav__icon__text {
+        margin-right: 0.5em;
+      }
+
+      .header__nav__icon__lines__line {
+        background: $grey-700;
+        height: 0.125em;
+        transition: transform 0.2s, opacity 0.2s;
+        width: 1.05em;
+
+        + .header__nav__icon__lines__line {
+          margin-top: 0.25em;
+        }
+
+        &:nth-child(1),
+        &:nth-child(3) {
+          transform-origin: center right;
+        }
+      }
+
+        body.showmenu .header__nav__icon__lines__line {
+          &:nth-child(1) {
+            transform: rotate(-45deg);
+          }
+
+          &:nth-child(3) {
+            transform: rotate(45deg);
+          }
+
+          &:nth-child(2) {
+            opacity: 0;
+          }
+        }
 
   .header__nav__menu {
     @include mobile {
@@ -142,7 +173,6 @@
   .header__nav__menu__item {
     border-bottom: 2px solid transparent;
     font-weight: 300;
-    padding: 0.25em 0;
     transition: border-color 0.2s;
     white-space: nowrap;
 
@@ -182,6 +212,7 @@
   display: table;
   font-size: 0.75em;
   width: 100%;
+  margin: 2em 0;
 }
 
   .footer__top,
@@ -211,5 +242,9 @@
 
 .page-content {
   background-color: $grey-100;
+  border-radius: 0.25em;
+  box-shadow: 0 1em 2.15em rgba($grey-700, 0.1), 0 0.35em 1em rgba($grey-700, 0.1);
   padding: 1.5em 1em;
 }
+
+

@@ -23,7 +23,7 @@ Please read and make sure that you understand the [course syllabus](/syllabus).
 ### Instructor
 
 <div class="contact">
-  <img src="/static/img/people/karen-reid.jpg" width="200">
+  <img src="/static/img/people/karen.jpg" width="200">
   <dl>
     <dt>Instructor:</dt>
     <dd>Karen Reid</dd>
@@ -38,41 +38,41 @@ Please read and make sure that you understand the [course syllabus](/syllabus).
 
 ### Teaching Assistants
 
-<table>
-  <tbody>
-    <tr>
-      <td>
-        <a href="https://github.com/whizzzkid/" target="_blank">
-        <img src="/static/img/people/nishant-arora.jpg" width="200"> <br />
-        <p>Nishant Arora</p>
-		</a>
-      </td>
-      <td>
-        <img src="/static/img/people/eugene.png" width="200"> <br />
-        <p>Eugene Cheung</p>
-      </td>
-      <td>
-        <img src="/static/img/people/simon-cook.jpg" width="200"> <br />
-        <p>Simon Cook</p>
-      </td>
-      <td>
-        <img src="/static/img/people/yizheng-ding.jpg" width="200"> <br />
-        <p>Yizheng Ding</p>
-      </td>
-    </tr>
-    <tr>
-      <td>
-        <img src="/static/img/people/Nigel-Fong.jpg" width="200"> <br />
-        <p>Nigel Fong</p>
-      </td>
-      <td>
-        <img src="/static/img/people/candice-lin.jpg" width="200"> <br />
-        <p>Candice Lin</p>
-      </td>
-      <td>
-        <p>Rachel Franz</p>
-      </td>
-      <td></td>
-    </tr>
-  </tbody>
-</table>
+<section class="assistants">
+  <figure>
+    <a href="https://github.com/whizzzkid/" target="_blank">
+      <img src="/static/img/people/nishant.jpg">
+      <figcaption>Nishant Arora</figcaption>
+    </a>
+  </figure>
+
+  <figure>
+    <img src="/static/img/people/eugene.jpg">
+    <figcaption>Eugene Cheung</figcaption>
+  </figure>
+
+  <figure>
+    <img src="/static/img/people/simon.jpg">
+    <figcaption>Simon Cook</figcaption>
+  </figure>
+
+  <figure>
+    <img src="/static/img/people/yizheng.jpg">
+    <figcaption>Yizheng Ding</figcaption>
+  </figure>
+
+  <figure>
+    <img src="/static/img/people/nigel.jpg">
+    <figcaption>Nigel Fong</figcaption>
+  </figure>
+
+  <figure>
+    <img src="/static/img/people/candice.jpg">
+    <figcaption>Candice Lin</figcaption>
+  </figure>
+
+  <figure>
+    <img src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs">
+    <figcaption>Rachel Franz</figcaption>
+  </figure>
+</section>

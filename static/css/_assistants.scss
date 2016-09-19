@@ -1,0 +1,22 @@
+.assistants {
+  display: block;
+  max-width: 100%;
+  overflow-x: auto;
+  width: 100%;
+
+  figure {
+    display: inline-block;
+    margin: 0.5em;
+
+    figcaption {
+      text-align: center;
+    }
+
+    img {
+      background: $grey-200;
+      box-shadow: 0 0.125em 0.375em rgba($grey-700, 0.2);
+      height: 12.5em;
+      width: 12.5em;
+    }
+  }
+}

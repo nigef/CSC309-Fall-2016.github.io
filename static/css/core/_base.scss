@@ -41,6 +41,15 @@ svg {
 
 // Forms
 
+form {
+  border: 1px solid $grey-200;
+  padding: 0.5em;
+}
+
+label {
+  display: block;
+}
+
 button,
 input[type='submit'],
 input[type='reset'] {
@@ -48,6 +57,10 @@ input[type='reset'] {
   border: 1px solid $grey-700;
   cursor: pointer;
   padding: 0.5em;
+
+  &:hover {
+    background: $grey-200;
+  }
 }
 
 button,
@@ -55,6 +68,18 @@ input,
 textarea {
   color: inherit;
   font: inherit;
+}
+
+input[type='text'],
+textarea {
+  border: 1px solid $grey-200;
+  margin: 0.5em 0;
+  width: 100%;
+}
+
+textarea {
+  max-width: 100%;
+  padding: 0.5em;
 }
 
 
@@ -101,8 +126,9 @@ a {
   }
 }
 
-p + p {
-  margin-top: 1.5em;
+p + p,
+li + li {
+  margin-top: 1.25em;
 }
 
 dl {
@@ -130,10 +156,14 @@ dl {
 
 table {
   border-collapse: collapse;
-  display: block;
+  display: table;
   max-width: 100%;
   overflow-x: auto;
   width: 100%;
+
+  @include mobile {
+    display: block;
+  }
 }
 
 th,
@@ -148,7 +178,7 @@ th {
 }
 
 td {
-  border-bottom: 1px solid lighten($grey-400, 50%);
-  border-top: 1px solid lighten($grey-400, 50%);
+  border-bottom: 1px solid lighten($grey-400, 70%);
+  border-top: 1px solid lighten($grey-400, 70%);
   text-align: left;
 }
