@@ -7,7 +7,7 @@ permalink: /assignments/
 <!--
 <h2><font color="red">Remarks</font></h2>
 
-Please submit remark requestion via this [simple form](https://wwwcgi.cdf.toronto.edu/~cs369hf/cgi-bin/remark-request.cgi?course=csc369h).  When your request is filed, you will be redirected to a page showing what you entered.
+Please submit remark requests via this [simple form](https://wwwcgi.cdf.toronto.edu/~cs369hf/cgi-bin/remark-request.cgi?course=csc369h).  When your request is filed, you will be redirected to a page showing what you entered.
 -->
 
 ## Overview
