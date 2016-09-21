@@ -90,7 +90,7 @@ Now you can go to your GitHub fork.  You should see the button "Pull Request."  
 
 ### Keeping your local code up-to-date
 
-If changes have been made to the upstream repo that you want to bring into your localrepo, you can run the following:
+If changes have been made to the upstream repo that you want to bring into your local repo, you can run the following:
 
 ```
 git checkout master

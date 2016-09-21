@@ -72,7 +72,7 @@ If you have feedback about the course, the web page includes a link to an anonym
 For each lab, you will be asked to turn in a small piece of work or to work on an activity during tutorial, usually in a group of 2 or 3. Many of these will be directly related to the assignments. We will take the best 7 out of 8 scores.  No grace periods may be used for the lab exercises.
 
 - **Assignments 20%:**
-Over the term, you will complete 2 assignments (worth 10% each). All three assignments are individual work, and each is due on the Friday of the week it is due. To submit your assignment, check your work into your SVN repository.
+Over the term, you will complete 2 assignments (worth 10% each). All two assignments are individual work, and each is due on the Friday of the week it is due. To submit your assignment, create a pull request against the assignment's upstream Git repository.
 
 - **Project 30% (5% proposal, 20% project, 5% presentation)**
 
