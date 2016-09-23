@@ -35,9 +35,16 @@ permalink: /lectures/
     <tr>
       <td>2</td>
       <td>Sept 12</td>
-      <td></td>
+      <td>CSS, HTTP, Basic Servers</td>
       <td></td>
       <td>
+          <a href="/lectures/w2-protocols.pdf">CSS, HTTP, Servers</a>
+          <a href="/lectures/w2/server1.js">server1.js</a>
+          <a href="/lectures/w2/server2.js">server2.js</a>
+          <a href="/lectures/w2/server3.js">server3.js</a>
+          <a href="/lectures/w2/server4.js">server4.js</a>
+          <a href="/lectures/w2/server5.js">server5.js</a>
+          <a href="/lectures/w2/tmp.html">tmp.html</a>
       </td>
       <td>
       </td>
