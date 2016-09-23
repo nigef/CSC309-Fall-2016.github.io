@@ -15,35 +15,50 @@ There are three repositories that you will interact with:
   
 ### Getting set up
 
-  - Open a GitHub account and set up an [SSH public keey for Git](https://help.github.com/articles/generating-an-ssh-key/).
+  - Open a GitHub account and set up an [SSH public key for Git](https://help.github.com/articles/generating-an-ssh-key/).
  
   - Set your Git configuration settings
  
 ``` 
- $ git config --global user.name "First-name Last-name"
- $ git config --global user.email "your-email@example.com"
+$ git config --global user.name "First-name Last-name"
+$ git config --global user.email "your-email@example.com"
 ```
  
   You may omit the `--global` switch if you wish. Make sure to read up on the differences between global and non-global git configuration, though. 
  
   - Visit the course upstream repository on GitHub and press "Fork".  This will create a clone of the repo on GitHub.
  
-  - From your fork, use the "Clone or Download" button to get the link you need. In the terminal on your local machine, navigate to your intended development directory, and running the following command using the URL you just copied.
+  - From your fork, use the "Clone or Download" button to get the link you need. In the terminal on your local machine, navigate to your intended development directory, and run the following command using the URL you just copied.
  
 ```
- git clone https://github.com/YOUR-GITHUB-ID/REPO-NAME.git
+git clone https://github.com/YOUR-GITHUB-ID/REPO-NAME.git
+```
+
+  - Once you have cloned the repo, `cd` into it,
+
+```
+cd <REPO-NAME>
 ```
  
   - Next create a "remote" to the upstream repo.  This will be used to keep your local copy up to date.  In other words you will "pull" from this remote to get changes that someone made to the upstream repo.  (The url you want for this step is the one found in the "Clone or Download" button in the upstream repo on GitHub)
  
 ```
- git remote add upstream https://github.com/CSC309-Fall-2016/REPO-NAME.git
+git remote add upstream https://github.com/CSC309-Fall-2016/REPO-NAME.git
 ```
  
   - Now make sure the remote was added.  The following command should show you "upstream" and "origin" (your forked repo).
 ```
  git remote -v
 ```
+
+    ..which should output,
+
+    ```
+    origin      https://github.com/YOUR-GITHUB-ID/REPO-NAME.git (fetch)
+    origin      https://github.com/YOUR-GITHUB-ID/REPO-NAME.git (push)
+    upstream    https://github.com/CSC309-Fall-2016/REPO-NAME.git (fetch)
+    upstream    https://github.com/CSC309-Fall-2016/REPO-NAME.git (push)
+    ```
  
 ### Development Workflow
 
@@ -75,7 +90,7 @@ Now you can go to your GitHub fork.  You should see the button "Pull Request."  
 
 ### Keeping your local code up-to-date
 
-If changes have been made to the upstream repo that you want to bring into your localrepo, you can run the following:
+If changes have been made to the upstream repo that you want to bring into your local repo, you can run the following:
 
 ```
 git checkout master
