@@ -53,9 +53,16 @@ permalink: /lectures/
     <tr>
       <td>3</td>
       <td>Sept 19</td>
-      <td></td>
+      <td>JavaScript and DOM</td>
       <td></td>
       <td>
+          <a href="/lectures/w3/javascript.pdf">JavaScript and DOM</a>
+          <a href="/lectures/w3/cl1.js">cl1.js</a>
+          <a href="/lectures/w3/cl2.js">cl2.js</a>
+          <a href="/lectures/w3/cl_loop.js">cl_loop.js</a>
+          <a href="/lectures/w3/cl_loop1.js">cl_loop1.js</a>
+          <a href="/lectures/w3/obj.js">obj.js</a>
+          <a href="/lectures/w3/this.js">this.js</a>
       </td>
       <td>
       </td>
