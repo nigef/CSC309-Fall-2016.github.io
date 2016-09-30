@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Lab 2 is Posted
+title: Note Taker Requested
 author: Karen Reid
 categories:
   - Admin
