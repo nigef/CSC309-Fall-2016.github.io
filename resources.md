@@ -84,12 +84,20 @@ Books:
 
 ## HTML[5]
 
+  - [HTML Validator](https://validator.w3.org/)
+
+    "Check the markup (HTML, XHTML, …) of Web documents"
+
   - [Document Object Model (DOM)](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model)
 
     HTML, XML and SVG documents are rendered into tree structures. You can modify the content and structure of the Nodes, and attach event handlers to them.
 
 
 ## CSS[3]
+
+  - [CSS Validator](https://jigsaw.w3.org/css-validator/)
+
+    "Check Cascading Style Sheets (CSS) and (X)HTML documents with style sheets"
 
 
 ### Security
