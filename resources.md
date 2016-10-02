@@ -8,6 +8,7 @@ permalink: /resources/
 
   - [Git Instructions](/git-primer.html) for this course
   - [Pro Git](https://git-scm.com/book/en/v2) book
+  - [Git Cheat Sheet](https://services.github.com/kit/downloads/github-git-cheat-sheet.pdf) by GitHub
 
 ## General sources
   - [w3schools](http://www.w3schools.com)
