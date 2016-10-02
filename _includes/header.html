@@ -1,12 +1,12 @@
 <a href="#content" tabindex="0" class="accessibility-aid">Skip to content</a>
 
 <header class="header">
-  <a class="header__logo" href="/">
-    <p class="header__logo__title">{{ site.title }}</p>
-    <p class="header__logo__subtitle">{{ site.description }}</p>
+  <a class="header__logo" href="/" role="logo">
+    <div class="header__logo__title">{{ site.title }}</div>
+    <div class="header__logo__subtitle">{{ site.description }}</div>
   </a>
 
-  <nav class="header__nav">
+  <div class="header__nav">
     <a id="js-mobile-menu-trigger" class="header__nav__icon" href="#">
       <span class="header__nav__icon__text">Menu</span>
 
@@ -17,7 +17,7 @@
       </div>
     </a>
 
-    <div id="js-mobile-menu" class="header__nav__menu">
+    <nav id="js-mobile-menu" class="header__nav__menu">
       {% for link in site.data.nav %}
         {% assign current = nil %}
         {% if page.url contains link.url %}
@@ -26,6 +26,6 @@
 
         <a class="header__nav__menu__item {{ current }}" href="{{ link.url }}">{{ link.title }}</a>
       {% endfor %}
-    </div>
-  </nav>
+    </nav>
+  </div>
 </header>

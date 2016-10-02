@@ -72,6 +72,11 @@
         background-color: $brand;
       }
     }
+
+    &::after {
+      content: ': ';
+      opacity: 0;
+    }
   }
 
   .header__logo__subtitle {
