@@ -21,12 +21,11 @@ permalink: /lectures/
       <td>Sept 12</td>
       <td>Intro, History, HTML, CSS, GIT</td>
       <td>
-          <a href="http://www.w3schools.com/">W3C tutorials for HTML and CSS</a>
+        <a href="http://www.w3schools.com/">W3C tutorials for HTML and CSS</a>
       </td>
       <td>
-          <a href="/lectures/w1-intro.pdf">Intro</a>
-          <a href="/lectures/w1-documents.pdf">HTML, CSS</a>
-          
+        <a href="/lectures/w1-intro.pdf">Intro</a>
+        <a href="/lectures/w1-documents.pdf">HTML, CSS</a>
       </td>
       <td>
       </td>
@@ -38,13 +37,13 @@ permalink: /lectures/
       <td>CSS, HTTP, Basic Servers</td>
       <td></td>
       <td>
-          <a href="/lectures/w2-protocols.pdf">CSS, HTTP, Servers</a>
-          <a href="/lectures/w2/server1.js">server1.js</a>
-          <a href="/lectures/w2/server2.js">server2.js</a>
-          <a href="/lectures/w2/server3.js">server3.js</a>
-          <a href="/lectures/w2/server4.js">server4.js</a>
-          <a href="/lectures/w2/server5.js">server5.js</a>
-          <a href="/lectures/w2/tmp.html">tmp.html</a>
+        <a href="/lectures/w2-protocols.pdf">CSS, HTTP, Servers</a>
+        <a href="/lectures/w2/server1.js">server1.js</a>
+        <a href="/lectures/w2/server2.js">server2.js</a>
+        <a href="/lectures/w2/server3.js">server3.js</a>
+        <a href="/lectures/w2/server4.js">server4.js</a>
+        <a href="/lectures/w2/server5.js">server5.js</a>
+        <a href="/lectures/w2/tmp.html">tmp.html</a>
       </td>
       <td>
       </td>
@@ -56,18 +55,17 @@ permalink: /lectures/
       <td>JavaScript and DOM</td>
       <td></td>
       <td>
-          <a href="/lectures/w3/javascript.pdf">JavaScript and DOM</a>
-          <a href="/lectures/w3/cl1.js">cl1.js</a>
-          <a href="/lectures/w3/cl2.js">cl2.js</a>
-          <a href="/lectures/w3/cl_loop.js">cl_loop.js</a>
-          <a href="/lectures/w3/cl_loop1.js">cl_loop1.js</a>
-          <a href="/lectures/w3/obj.js">obj.js</a>
-          <a href="/lectures/w3/this.js">this.js</a>
+        <a href="/lectures/w3/javascript.pdf">JavaScript and DOM</a>
+        <a href="/lectures/w3/cl1.js">cl1.js</a>
+        <a href="/lectures/w3/cl2.js">cl2.js</a>
+        <a href="/lectures/w3/cl_loop.js">cl_loop.js</a>
+        <a href="/lectures/w3/cl_loop1.js">cl_loop1.js</a>
+        <a href="/lectures/w3/obj.js">obj.js</a>
+        <a href="/lectures/w3/this.js">this.js</a>
       </td>
       <td>
       </td>
     </tr>
-
 
     <tr>
       <td>4</td>
@@ -75,9 +73,9 @@ permalink: /lectures/
       <td>JQuery, Ajax</td>
       <td></td>
       <td>
-	  <a href="/lectures/w5/JQuery.pdf">JQuery</a>
-	  <a href="/lectures/w5/ jquery_example.html">jquery_example.html</a>
-	  <a href="/lectures/w5/ jquery_example.html">jquery_example2.html</a>
+	      <a href="/lectures/w4/JQuery.pdf">JQuery</a>
+    	  <a href="/lectures/w4/jquery_example.html">jquery_example.html</a>
+    	  <a href="/lectures/w4/jquery_example2.html">jquery_example2.html</a>
       </td>
       <td>
       </td>
@@ -88,10 +86,8 @@ permalink: /lectures/
       <td>Oct 10</td>
       <td>No labs</td>
       <td></td>
-      <td>
-      </td>
-      <td>
-      </td>
+      <td></td>
+      <td></td>
     </tr>
 
     <tr>
