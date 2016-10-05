@@ -1,0 +1,34 @@
+<DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>JQuery example</title>
+</head>
+<body>
+    
+    <ul>
+        <li><span>Apple</span></li>
+        <li>Pear</li>
+        <li>Orange</li>
+    </ul>
+    <p> paragraph</p>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+   <!-- <script src="./ex_jquery.js"></script>-->
+    <script>
+    $( 'li' ).html( '<em><span>New HTML</span></em>' );
+    $( 'li' ).each(function( index, elem ) { // this/elem: the current DOM element // index: the current element's index in the selection
+    $( elem ).prepend( '<strong>' + index + ': </strong>' );
+    });
+    
+    
+    $( 'li' ).click(function() {
+    $( this ).addClass( 'clicked' ); })
+    .find( 'span' )
+    .attr( 'title', 'Hover over me' );
+    
+    </script>
+</body>
+</html>
+
+

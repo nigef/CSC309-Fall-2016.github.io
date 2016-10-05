@@ -75,7 +75,20 @@ permalink: /lectures/
       <td>JQuery, Ajax</td>
       <td></td>
       <td>
-	  <a href="/lectures/w4/JQuery.pdf">JQuery</a>
+	  <a href="/lectures/w5/JQuery.pdf">JQuery</a>
+	  <a href="/lectures/w5/ jquery_example.html">jquery_example.html</a>
+	  <a href="/lectures/w5/ jquery_example.html">jquery_example2.html</a>
+      </td>
+      <td>
+      </td>
+    </tr>
+
+    <tr>
+      <td>5</td>
+      <td>Oct 10</td>
+      <td>No labs</td>
+      <td></td>
+      <td>
       </td>
       <td>
       </td>
@@ -83,17 +96,6 @@ permalink: /lectures/
 
     <tr>
       <td>6</td>
-      <td>Oct 10</td>
-      <td></td>
-      <td></td>
-      <td>
-      </td>
-      <td>
-      </td>
-    </tr>
-
-    <tr>
-      <td>7</td>
       <td>Oct 24</td>
       <td></td>
       <td></td>
@@ -104,7 +106,7 @@ permalink: /lectures/
     </tr>
 
     <tr>
-      <td>8</td>
+      <td>7</td>
       <td>Oct 31</td>
       <td></td>
       <td></td>
@@ -115,7 +117,7 @@ permalink: /lectures/
     </tr>
 
     <tr>
-      <td>9</td>
+      <td>8</td>
       <td>Nov 7</td>
       <td></td>
       <td></td>
@@ -126,7 +128,7 @@ permalink: /lectures/
     </tr>
 
     <tr>
-      <td>10</td>
+      <td>9</td>
       <td>Nov 14</td>
       <td></td>
       <td></td>
@@ -137,7 +139,7 @@ permalink: /lectures/
     </tr>
 
     <tr>
-      <td>11</td>
+      <td>10</td>
       <td>Nov 21</td>
       <td></td>
       <td></td>
@@ -148,7 +150,7 @@ permalink: /lectures/
     </tr>
 
     <tr>
-      <td>12</td>
+      <td>11</td>
       <td>Nov 28</td>
       <td></td>
       <td></td>
@@ -159,7 +161,7 @@ permalink: /lectures/
     </tr>
 
     <tr>
-      <td>13</td>
+      <td>12</td>
       <td>Dec 5</td>
       <td></td>
       <td></td>
