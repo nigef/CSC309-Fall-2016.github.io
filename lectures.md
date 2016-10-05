@@ -18,7 +18,7 @@ permalink: /lectures/
   <tbody>
     <tr>
       <td>1</td>
-      <td>Sept 5</td>
+      <td>Sept 12</td>
       <td>Intro, History, HTML, CSS, GIT</td>
       <td>
           <a href="http://www.w3schools.com/">W3C tutorials for HTML and CSS</a>
@@ -34,7 +34,7 @@ permalink: /lectures/
 
     <tr>
       <td>2</td>
-      <td>Sept 12</td>
+      <td>Sept 19</td>
       <td>CSS, HTTP, Basic Servers</td>
       <td></td>
       <td>
@@ -52,7 +52,7 @@ permalink: /lectures/
 
     <tr>
       <td>3</td>
-      <td>Sept 19</td>
+      <td>Sept 26</td>
       <td>JavaScript and DOM</td>
       <td></td>
       <td>
@@ -68,23 +68,14 @@ permalink: /lectures/
       </td>
     </tr>
 
-    <tr>
-      <td>4</td>
-      <td>Sept 26</td>
-      <td></td>
-      <td></td>
-      <td>
-      </td>
-      <td>
-      </td>
-    </tr>
 
     <tr>
-      <td>5</td>
+      <td>4</td>
       <td>Oct 3</td>
-      <td></td>
+      <td>JQuery, Ajax</td>
       <td></td>
       <td>
+	  <a href="/lectures/w4/JQuery.pdf">JQuery</a>
       </td>
       <td>
       </td>
