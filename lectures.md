@@ -73,13 +73,21 @@ permalink: /lectures/
       <td>4</td>
       <td>Oct 3</td>
       <td>JQuery, Ajax</td>
-      <td></td>
       <td>
-	  <a href="/lectures/w5/JQuery.pdf">JQuery</a>
-	  <a href="/lectures/w5/ jquery_example.html">jquery_example.html</a>
-	  <a href="/lectures/w5/ jquery_example.html">jquery_example2.html</a>
+          <a href="https://learn.jquery.com">JQuery.com</a>
+          <a href="http://www.jquery-tutorial.net">JQuery Tutorial</a>
       </td>
       <td>
+	  <a href="/lectures/w4/JQuery.pdf">JQuery</a>
+	  <a href="/lectures/w4/jquery_example.html">jquery_example.html</a>
+	  <a href="/lectures/w4/jquery_example2.html">jquery_example2.html</a>
+      </td>
+      <td> Lab3 solutions: 
+      <a href="/lectures/w4/lab3/airline_routes.html">airline_routes.html</a>
+      <a href="/lectures/w4/lab3/routes.js">routes.js</a>
+      <a href="/lectures/w4/lab3/airline_routes_jq.html">airline_routes_jq.html</a> (JQuery)
+      <a href="/lectures/w4/lab3/routes_jq.js">routes_jq.js</a>
+      <a href=""></a>
       </td>
     </tr>
 
