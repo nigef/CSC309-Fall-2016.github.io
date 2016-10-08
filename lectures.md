@@ -19,7 +19,7 @@ permalink: /lectures/
     <tr>
       <td>1</td>
       <td>Sept 12</td>
-      <td>Intro, History, HTML, CSS, GIT</td>
+      <td>Intro, History, HTML, CSS, Git</td>
       <td>
         <a href="http://www.w3schools.com/">W3C tutorials for HTML and CSS</a>
       </td>
@@ -70,22 +70,22 @@ permalink: /lectures/
     <tr>
       <td>4</td>
       <td>Oct 3</td>
-      <td>JQuery, Ajax</td>
+      <td>jQuery, Ajax</td>
       <td>
-          <a href="https://learn.jquery.com">JQuery.com</a>
-          <a href="http://www.jquery-tutorial.net">JQuery Tutorial</a>
-	  </td>
-      <td>
-	  <a href="/lectures/w4/JQuery.pdf">JQuery</a>
-	  <a href="/lectures/w4/jquery_example.html">jquery_example.html</a>
-	  <a href="/lectures/w4/jquery_example2.html">jquery_example2.html</a>
+        <a href="https://learn.jquery.com">jQuery.com</a>
+        <a href="http://www.jquery-tutorial.net">jQuery Tutorial</a>
       </td>
-      <td> Lab3 solutions: 
-      <a href="/lectures/w4/lab3/airline_routes.html">airline_routes.html</a>
-      <a href="/lectures/w4/lab3/routes.js">routes.js</a>
-      <a href="/lectures/w4/lab3/airline_routes_jq.html">airline_routes_jq.html</a> (JQuery)
-      <a href="/lectures/w4/lab3/routes_jq.js">routes_jq.js</a>
-      <a href=""></a>
+      <td>
+        <a href="/lectures/w4/JQuery.pdf">jQuery</a>
+        <a href="/lectures/w4/jquery_example.html">jquery_example.html</a>
+        <a href="/lectures/w4/jquery_example2.html">jquery_example2.html</a>
+      </td>
+      <td>
+        <p>Lab3 solutions:</p>
+        <a href="/lectures/w4/lab3/airline_routes.html">airline_routes.html</a>
+        <a href="/lectures/w4/lab3/routes.js">routes.js</a>
+        <a href="/lectures/w4/lab3/airline_routes_jq.html">airline_routes_jq.html</a> (jQuery)
+        <a href="/lectures/w4/lab3/routes_jq.js">routes_jq.js</a>
       </td>
     </tr>
 
@@ -103,10 +103,8 @@ permalink: /lectures/
       <td>Oct 24</td>
       <td></td>
       <td></td>
-      <td>
-      </td>
-      <td>
-      </td>
+      <td></td>
+      <td></td>
     </tr>
 
     <tr>
@@ -114,10 +112,8 @@ permalink: /lectures/
       <td>Oct 31</td>
       <td></td>
       <td></td>
-      <td>
-      </td>
-      <td>
-      </td>
+      <td></td>
+      <td></td>
     </tr>
 
     <tr>
@@ -125,10 +121,8 @@ permalink: /lectures/
       <td>Nov 7</td>
       <td></td>
       <td></td>
-      <td>
-      </td>
-      <td>
-      </td>
+      <td></td>
+      <td></td>
     </tr>
 
     <tr>
@@ -136,10 +130,8 @@ permalink: /lectures/
       <td>Nov 14</td>
       <td></td>
       <td></td>
-      <td>
-      </td>
-      <td>
-      </td>
+      <td></td>
+      <td></td>
     </tr>
 
     <tr>
@@ -147,10 +139,8 @@ permalink: /lectures/
       <td>Nov 21</td>
       <td></td>
       <td></td>
-      <td>
-      </td>
-      <td>
-      </td>
+      <td></td>
+      <td></td>
     </tr>
 
     <tr>
@@ -158,10 +148,8 @@ permalink: /lectures/
       <td>Nov 28</td>
       <td></td>
       <td></td>
-      <td>
-      </td>
-      <td>
-      </td>
+      <td></td>
+      <td></td>
     </tr>
 
     <tr>
@@ -169,10 +157,8 @@ permalink: /lectures/
       <td>Dec 5</td>
       <td></td>
       <td></td>
-      <td>
-      </td>
-      <td>
-      </td>
+      <td></td>
+      <td></td>
     </tr>
   </tbody>
 </table>
