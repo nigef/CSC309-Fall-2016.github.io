@@ -4,8 +4,6 @@ title: Course Grades
 permalink: /grades/
 ---
 
-The accumulation of grades will be posted on the [CS Teaching Online Tools site](https://www.teach.cs.toronto.edu/students/).
+Instructions for accessing grades will be here when there are grades available.
 
-Individual assignment grades will be found on MarkUs.
 
-Please check to make sure the marks are correct.
