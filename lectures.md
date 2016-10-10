@@ -76,9 +76,11 @@ permalink: /lectures/
           <a href="http://www.jquery-tutorial.net">JQuery Tutorial</a>
 	  </td>
       <td>
-	  <a href="/lectures/w4/JQuery.pdf">JQuery</a>
-	  <a href="/lectures/w4/jquery_example.html">jquery_example.html</a>
-	  <a href="/lectures/w4/jquery_example2.html">jquery_example2.html</a>
+	  <a href="/lectures/w4/JQuery.pdf">JQuery</a>,
+      <a href="/lectures/w4/Ajax.pdf">Ajax</a>, 
+	  <a href="/lectures/w4/jquery_example.html">jquery_example.html</a>, 
+	  <a href="/lectures/w4/jquery_example2.html">jquery_example2.html</a>, 
+	  <a href="/lectures/w4/ajax_ex.zip">ajax_ex.zip</a> 
       </td>
       <td> Lab3 solutions: 
       <a href="/lectures/w4/lab3/airline_routes.html">airline_routes.html</a>
