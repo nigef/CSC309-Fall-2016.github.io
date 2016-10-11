@@ -24,8 +24,8 @@ permalink: /lectures/
         <a href="http://www.w3schools.com/">W3C tutorials for HTML and CSS</a>
       </td>
       <td>
-        <a href="/lectures/w1-intro.pdf">Intro</a>
-        <a href="/lectures/w1-documents.pdf">HTML, CSS</a>
+        <a href="/lectures/w1/w1-intro.pdf">Intro</a>
+        <a href="/lectures/w1/w1-documents.pdf">HTML, CSS</a>
       </td>
       <td>
       </td>
@@ -37,7 +37,7 @@ permalink: /lectures/
       <td>CSS, HTTP, Basic Servers</td>
       <td></td>
       <td>
-        <a href="/lectures/w2-protocols.pdf">CSS, HTTP, Servers</a>
+        <a href="/lectures/w2/w2-protocols.pdf">CSS, HTTP, Servers</a>
         <a href="/lectures/w2/server1.js">server1.js</a>
         <a href="/lectures/w2/server2.js">server2.js</a>
         <a href="/lectures/w2/server3.js">server3.js</a>

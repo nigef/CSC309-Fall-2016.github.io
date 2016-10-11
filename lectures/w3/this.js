@@ -36,4 +36,4 @@ function baz(a) {
 var zed = new baz(2);
 console.log(zed.a); // 2
 
-// Excerpt From: Kyle Simpson. "this & Object Prototypes."" iBooks.
+// Excerpt From: Kyle Simpson. "this & Object Prototypes." iBooks.
