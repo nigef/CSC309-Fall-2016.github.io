@@ -94,9 +94,12 @@ permalink: /lectures/
     <tr>
       <td>5</td>
       <td>Oct 10</td>
-      <td>No labs</td>
       <td></td>
-      <td></td>
+      <td>Forms, Validation</td>
+      <td>
+    	  <a href="/lectures/w5/Forms.pdf">Forms</a>,
+         
+      </td>
       <td></td>
     </tr>
 
