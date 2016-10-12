@@ -4,7 +4,7 @@ title: Lectures
 permalink: /lectures/
 ---
 
-<table class="table">
+<table>
   <thead>
     <tr>
       <th>Week</th>
