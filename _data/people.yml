@@ -17,8 +17,10 @@ tas:
 
   - name: Nigel Fong
     photo: /static/img/people/nigel.jpg
+    link: https://github.com/nigef/
 
   - name: Candice Lin
     photo: /static/img/people/candice.jpg
 
   - name: Rachel Franz
+    photo: /static/img/people/rachel.jpg

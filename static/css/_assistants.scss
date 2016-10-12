@@ -4,6 +4,10 @@
   overflow-x: auto;
   width: 100%;
 
+  a:hover {
+    text-decoration: none;
+  }
+
   figure {
     display: inline-block;
     margin: 0.5em;
