@@ -1,14 +1,15 @@
 // An example of a simple closure
 
 function foo() {
-    var a = 2;
-    
-	// bar uses a, which it gets from its lexical scope
-	// (Its lexical scope includes variables defined in foo)
-    function bar() {
-        console.log( a ); // 2
-	}
-	return bar;
+  var a = 2;
+
+  // bar uses a, which it gets from its lexical scope
+  // (Its lexical scope includes variables defined in foo)
+  function bar() {
+    console.log(a); // 2
+  }
+
+  return bar;
 }
 
 var baz = foo();
@@ -17,10 +18,10 @@ var baz = foo();
 // The reference retains its lexical scope so a is still 2.
 baz();
 
-// The remainder of this example just shows taht you can
+// The remainder of this example just shows that you can
 // invoke bar in other ways and the result is the same.
 function c(fn) {
-   fn();
+  fn();
 }
 
 var d = c(foo);

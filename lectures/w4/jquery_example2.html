@@ -1,63 +1,62 @@
 <DOCTYPE html>
 <html>
-<head>
-<meta charset="utf-8">
-<title>JQuery example</title>
-</head>
-<body>
-    
+  <head>
+    <meta charset="utf-8">
+    <title>JQuery example</title>
+  </head>
+  <body>
     <ul id="my-unordered-list">
-        <li>Apple</li>
-        <li>Pear</li>
-        <li>Orange</li>
-        <li>Banana</li>
-        <li>Peach</li>
+      <li>Apple</li>
+      <li>Pear</li>
+      <li>Orange</li>
+      <li>Banana</li>
+      <li>Peach</li>
     </ul>
     <p> paragraph</p>
-    
+
     <ul id="my-other-list">
-        <li> <a href="http://api.jquery.com/">JQuery API</a></li>
-        <li> <ul>
-            <li><a href="http://api.jquery.com/">level 1</a></li>
-        </ul></li>
+      <li> <a href="http://api.jquery.com/">JQuery API</a></li>
+      <li>
+        <ul>
+          <li><a href="http://api.jquery.com/">level 1</a></li>
+        </ul>
+      </li>
     </ul>
-    
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script>
-    // Move the first item in the list to the end
-    var $listItem = $('#my-unordered-list li').first();
-    $('#my-unordered-list').append($listItem);
-    
-    // Permanently remove element
-    var $removedListItem = $( '#my-unordered-list li' ).first().remove();
-    
-    // temporarily remove element from document
-    var $detachedListItem = $( '#my-unordered-list li' ).first().detach();
-    
-    // repace an element or elements with element or HTML passed as argument
-    var $replacedListItem = $( '#my-unordered-list li' ).first()
-    .replaceWith( '<li>new!</li>' );
-    
-    var $replacedListItem = $( '#my-unordered-list li' ).last()
-    .replaceWith( $detachedListItem );
-    
-    /*
-    $(document).on('click', 'li', function() { 
-        $(this).remove() 
-   
-    }); 
-     */
+      // Move the first item in the list to the end
+      var $listItem = $('#my-unordered-list li').first();
+      $('#my-unordered-list').append($listItem);
 
-    $('#my-other-list a').on( 'click', function( event ){ 
-        console.log( event.target ); 
-        // logs the element that initiated the event 
-    }); 
+      // Permanently remove element
+      var $removedListItem = $('#my-unordered-list li').first().remove();
 
-    $('#my-other-list a').on( 'click', function( event ){ 
-        alert( event.target ); 
-        // logs the element that initiated the event 
-    }); 
+      // temporarily remove element from document
+      var $detachedListItem = $('#my-unordered-list li').first().detach();
 
-</script>
-</body>
+      // repace an element or elements with element or HTML passed as argument
+      var $replacedListItem = $('#my-unordered-list li').first()
+        .replaceWith('<li>new!</li>');
+
+      var $replacedListItem = $('#my-unordered-list li').last()
+        .replaceWith($detachedListItem );
+
+      /*
+      $(document).on('click', 'li', function() {
+        $(this).remove()
+      });
+      */
+
+      $('#my-other-list a').on('click', function(event) {
+        console.log( event.target );
+        // logs the element that initiated the event
+      });
+
+      $('#my-other-list a').on('click', function(event) {
+        alert(event.target);
+        // logs the element that initiated the event
+      });
+    </script>
+  </body>
 </html>
