@@ -98,6 +98,7 @@ permalink: /lectures/
       <td>Forms, Validation</td>
       <td>
     	  <a href="/lectures/w5/Forms.pdf">Forms</a>,
+    	  <a href="/lectures/w5/Cookies.pdf">Cookies</a>,
          
       </td>
       <td></td>
