@@ -99,6 +99,7 @@ permalink: /lectures/
       <td>
     	  <a href="/lectures/w5/Forms.pdf">Forms</a>,
     	  <a href="/lectures/w5/Cookies.pdf">Cookies</a>,
+          {% post_url 2016-10-15-Form-and-cookie-examples %}
          
       </td>
       <td></td>
