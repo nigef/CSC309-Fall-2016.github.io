@@ -97,7 +97,7 @@ permalink: /lectures/
       <td>Forms, Validation</td>
       <td>
           <a href="http://blog.ijasoneverett.com/2013/04/form-validation-in-node-js-with-express-validator/">Form Validiation with Express and Node</a>,
-          <a href-"https://developer.mozilla.org/en-US/docs/Web/HTTP/Cookies">MDN: Cookies</a>, 
+          <a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Cookies">MDN: Cookies</a>, 
           <a href="https://www.nczonline.net/blog/2009/05/05/http-cookies-explained/">Blog post on Cookies</a>, 
           <a href="https://www.cookielaw.org/the-cookie-law/">EU Cookie Law</a>,
           <a href="http://browsercookielimits.squawky.net">Browser Limits</a>,
