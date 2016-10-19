@@ -116,6 +116,15 @@ permalink: /lectures/
 
     <tr>
       <td>6</td>
+      <td>Oct 17</td>
+      <td>REST, Node, Express</td>
+      <td></td>
+      <td><a href="/lectures/w6/NodeExpress.pdf">Slides</a></td>
+      <td></td>
+    </tr>
+
+    <tr>
+      <td>7</td>
       <td>Oct 24</td>
       <td></td>
       <td></td>
@@ -124,17 +133,8 @@ permalink: /lectures/
     </tr>
 
     <tr>
-      <td>7</td>
-      <td>Oct 31</td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-    </tr>
-
-    <tr>
       <td>8</td>
-      <td>Nov 7</td>
+      <td>Oct 31</td>
       <td></td>
       <td></td>
       <td></td>
