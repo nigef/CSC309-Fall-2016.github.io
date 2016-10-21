@@ -118,9 +118,15 @@ permalink: /lectures/
       <td>6</td>
       <td>Oct 17</td>
       <td>REST, Node, Express</td>
-      <td></td>
-      <td><a href="/lectures/w6/NodeExpress.pdf">Slides</a></td>
-      <td></td>
+      <td><a href="https://gist.github.com/iksose/9401758">Creating a REST Server with Express</a>
+	  </td>
+      <td><a href="/lectures/w6/NodeExpress.pdf">Slides</a>
+      	  <a href="/lectures/w6/express_books.zip">books example</a>,
+      	  <a href="/lectures/w6/app.js">simple express</a>
+	  </td>
+      <td> <a href="/lectures/w6/lab4/tapp.html">tapp.html</a>
+	       <a href="/lectures/w6/lab4/server.js">server.js</a>
+	  </td>
     </tr>
 
     <tr>
@@ -143,7 +149,7 @@ permalink: /lectures/
 
     <tr>
       <td>9</td>
-      <td>Nov 14</td>
+      <td>Nov 7</td>
       <td></td>
       <td></td>
       <td></td>
@@ -152,7 +158,7 @@ permalink: /lectures/
 
     <tr>
       <td>10</td>
-      <td>Nov 21</td>
+      <td>Nov 14</td>
       <td></td>
       <td></td>
       <td></td>
@@ -161,7 +167,7 @@ permalink: /lectures/
 
     <tr>
       <td>11</td>
-      <td>Nov 28</td>
+      <td>Nov 21</td>
       <td></td>
       <td></td>
       <td></td>
@@ -170,7 +176,7 @@ permalink: /lectures/
 
     <tr>
       <td>12</td>
-      <td>Dec 5</td>
+      <td>Nov 28</td>
       <td></td>
       <td></td>
       <td></td>
