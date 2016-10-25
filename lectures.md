@@ -135,8 +135,8 @@ permalink: /lectures/
     <tr>
       <td>7</td>
       <td>Oct 24</td>
+           <td>Data storage</td>
       <td><a href="https://www.sitepoint.com/sql-vs-nosql-differences/">SQL vs NoSQL</a></td>
-      <td></td>
       <td></td>
       <td></td>
     </tr>
