@@ -118,7 +118,10 @@ permalink: /lectures/
       <td>6</td>
       <td>Oct 17</td>
       <td>REST, Node, Express</td>
-      <td><a href="https://gist.github.com/iksose/9401758">Creating a REST Server with Express</a>
+      <td><a href="https://code.tutsplus.com/tutorials/a-beginners-guide-to-http-and-rest--net-16340">A Guide to REST</a>, 
+          <a href="https://gist.github.com/iksose/9401758">Creating a REST Server with Express</a>, 
+          <a href="http://api.jquery.com/jquery.ajax/">JQuery Ajax</a>, 
+          <a href="http://calebmadrigal.com/sessions-in-nodejs-expressjs/">Sessions in Express.js</a>
 	  </td>
       <td><a href="/lectures/w6/NodeExpress.pdf">Slides</a>
       	  <a href="/lectures/w6/express_books.zip">books example</a>,
@@ -132,7 +135,7 @@ permalink: /lectures/
     <tr>
       <td>7</td>
       <td>Oct 24</td>
-      <td></td>
+      <td><a href="https://www.sitepoint.com/sql-vs-nosql-differences/">SQL vs NoSQL</a></td>
       <td></td>
       <td></td>
       <td></td>
