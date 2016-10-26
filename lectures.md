@@ -136,8 +136,12 @@ permalink: /lectures/
       <td>7</td>
       <td>Oct 24</td>
            <td>Data storage</td>
-      <td><a href="https://www.sitepoint.com/sql-vs-nosql-differences/">SQL vs NoSQL</a></td>
-      <td></td>
+      <td>
+          <a href="https://www.mongodb.com/nosql-explained">NoSQL Explained</a>,
+          <a href="https://www.sitepoint.com/sql-vs-nosql-differences/">SQL vs NoSQL</a>, 
+      <a href="http://stackoverflow.com/questions/1108/how-does-database-indexing-work">Nice StackOverflow answer about DB indexes</a>
+      </td>
+      <td><a href="/lectures/w7/Databases.pdf">Databases</a></td>
       <td></td>
     </tr>
 
