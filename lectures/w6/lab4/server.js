@@ -3,33 +3,34 @@
 
 // npm install express express-validator ejs body-parser
 
-const TAs = [
-    {
-        stunum: "0111222333",
-        givenname : "Jean",
-        familyname: "Bartik",
-        phone: "4165554444",
-        birthday: "1924-03-23"
-    },
-    {
-        stunum: "922333444",
-        givenname : "Marylyn",
-        familyname: "Meltzer",
-        phone: "4166667777",
-        birthday: "1922-12-3"
-    },
-    {
-        stunum: "333444555",
-        givenname : "Frances",
-        familyname: "Holberton",
-        phone: "4168889999",
-        birthday: "1917-03-07"
-    }  
-];
 var express = require('express');
 var app = express();
 var expressValidator = require('express-validator');
 var bodyParser = require('body-parser');
+
+const TAs = [
+  {
+    stunum: "0111222333",
+    givenname : "Jean",
+    familyname: "Bartik",
+    phone: "4165554444",
+    birthday: "1924-03-23"
+  },
+  {
+    stunum: "922333444",
+    givenname : "Marylyn",
+    familyname: "Meltzer",
+    phone: "4166667777",
+    birthday: "1922-12-3"
+  },
+  {
+    stunum: "333444555",
+    givenname : "Frances",
+    familyname: "Holberton",
+    phone: "4168889999",
+    birthday: "1917-03-07"
+  }
+];
 
 
 // Set views path, template engine and default layout
@@ -49,10 +50,10 @@ app.use(bodyParser.urlencoded({     // to support URL-encoded bodies
 // We have to create custom validators here:
 app.use(expressValidator({
     customValidators: {
-        
+
         // Hint: You can re-use the regular expressions you used client-side!
         // But be sure to use forward slashes for the start and end of the expression ...
-        
+
         isStuNum: function(value) {
             return value.search( /\d{9}\d?$/ ) !== -1;
         },
@@ -78,42 +79,42 @@ app.get('/', function(req, res) {
 app.post('/signup', function(req, res)
 {
     // Very simply checking if the fields (by name) aren't empty:
-	req.assert('stunum', 'A student number is required').notEmpty();
-	req.assert('phone', 'A phone number is required').notEmpty();
-	req.assert('birthday', 'A birthday is required').notEmpty();
-    
+  req.assert('stunum', 'A student number is required').notEmpty();
+  req.assert('phone', 'A phone number is required').notEmpty();
+  req.assert('birthday', 'A birthday is required').notEmpty();
+
     // .checkBody() looks at POST data.
-    
+
     // Checking student number (use your custom validation functions):
     req.checkBody('stunum', 'Student number not formatted properly.').isStuNum();
-    
+
     // Checking phone number:
     req.checkBody('phone', 'Phone number not formatted properly.').isPhone();
-    
+
     // Checking birthday:
     req.checkBody('birthday', 'Birthday not formatted properly.').isBirthday();
-    
+
     // Checking for errors and mapping them:
     var errors = req.validationErrors();
     var mappedErrors = req.validationErrors(true);
-    
+
     if (errors) // If errors exist, send them back to the form:
     {
         var errorMsgs = { "errors": {} };
 
         if ( mappedErrors.stunum )
             errorMsgs.errors.error_stunum = mappedErrors.stunum.msg;
-        
+
         if ( mappedErrors.phone )
             errorMsgs.errors.error_phone = mappedErrors.phone.msg;
-        
+
         if ( mappedErrors.birthday )
             errorMsgs.errors.error_birthday = mappedErrors.birthday.msg;
-        
+
         // Note how the placeholders in tapp.html use this JSON:
         res.render('tapp', errorMsgs);
     }
-    
+
     else
     {
         // You'd do your processing of the submitted data here.

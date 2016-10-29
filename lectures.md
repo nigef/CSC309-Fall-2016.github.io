@@ -96,20 +96,19 @@ permalink: /lectures/
       <td>Oct 10</td>
       <td>Forms, Validation</td>
       <td>
-          <a href="http://blog.ijasoneverett.com/2013/04/form-validation-in-node-js-with-express-validator/">Form Validiation with Express and Node</a>,
-          <a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Cookies">MDN: Cookies</a>, 
-          <a href="https://www.nczonline.net/blog/2009/05/05/http-cookies-explained/">Blog post on Cookies</a>, 
-          <a href="https://www.cookielaw.org/the-cookie-law/">EU Cookie Law</a>,
-          <a href="http://browsercookielimits.squawky.net">Browser Limits</a>,
-          <a href="http://html5demos.com/storage">HTML5 Storage Demo</a>,
-          <a href="https://www.eff.org/deeplinks/2009/09/online-trackers-and-social-networks">EFF on Tracking</a>,
-          <a href="https://robinlinus.github.io/socialmedia-leak/"> Your Social Media Fingerprint</a>
+        <a href="http://blog.ijasoneverett.com/2013/04/form-validation-in-node-js-with-express-validator/">Form Validiation with Express and Node</a>,
+        <a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Cookies">MDN: Cookies</a>,
+        <a href="https://www.nczonline.net/blog/2009/05/05/http-cookies-explained/">Blog post on Cookies</a>,
+        <a href="https://www.cookielaw.org/the-cookie-law/">EU Cookie Law</a>,
+        <a href="http://browsercookielimits.squawky.net">Browser Limits</a>,
+        <a href="http://html5demos.com/storage">HTML5 Storage Demo</a>,
+        <a href="https://www.eff.org/deeplinks/2009/09/online-trackers-and-social-networks">EFF on Tracking</a>,
+        <a href="https://robinlinus.github.io/socialmedia-leak/"> Your Social Media Fingerprint</a>
       </td>
       <td>
-    	  <a href="/lectures/w5/Forms.pdf">Forms</a>,
-    	  <a href="/lectures/w5/Cookies.pdf">Cookies</a>,
-          <a href="{% post_url 2016-10-15-Form-and-cookie-examples %}">Examples</a>
-         
+        <a href="/lectures/w5/Forms.pdf">Forms</a>,
+        <a href="/lectures/w5/Cookies.pdf">Cookies</a>,
+        <a href="{% post_url 2016-10-15-Form-and-cookie-examples %}">Examples</a>
       </td>
       <td>No labs</td>
     </tr>
@@ -118,30 +117,35 @@ permalink: /lectures/
       <td>6</td>
       <td>Oct 17</td>
       <td>REST, Node, Express</td>
-      <td><a href="https://code.tutsplus.com/tutorials/a-beginners-guide-to-http-and-rest--net-16340">A Guide to REST</a>, 
-          <a href="https://gist.github.com/iksose/9401758">Creating a REST Server with Express</a>, 
-          <a href="http://api.jquery.com/jquery.ajax/">JQuery Ajax</a>, 
-          <a href="http://calebmadrigal.com/sessions-in-nodejs-expressjs/">Sessions in Express.js</a>
-	  </td>
-      <td><a href="/lectures/w6/NodeExpress.pdf">Slides</a>
-      	  <a href="/lectures/w6/express_books.zip">books example</a>,
-      	  <a href="/lectures/w6/app.js">simple express</a>
-	  </td>
-      <td> <a href="/lectures/w6/lab4/tapp.html">tapp.html</a>
-	       <a href="/lectures/w6/lab4/server.js">server.js</a>
-	  </td>
+      <td>
+        <a href="https://code.tutsplus.com/tutorials/a-beginners-guide-to-http-and-rest--net-16340">A Guide to REST</a>,
+        <a href="https://gist.github.com/iksose/9401758">Creating a REST Server with Express</a>,
+        <a href="http://api.jquery.com/jquery.ajax/">JQuery Ajax</a>,
+        <a href="http://calebmadrigal.com/sessions-in-nodejs-expressjs/">Sessions in Express.js</a>
+      </td>
+      <td>
+        <a href="/lectures/w6/NodeExpress.pdf">Slides</a>
+        <a href="/lectures/w6/express_books.zip">books example</a>,
+        <a href="/lectures/w6/app.js">simple express</a>
+      </td>
+      <td>
+        <a href="/lectures/w6/lab4/tapp.html">tapp.html</a>
+        <a href="/lectures/w6/lab4/server.js">server.js</a>
+      </td>
     </tr>
 
     <tr>
       <td>7</td>
       <td>Oct 24</td>
-           <td>Data storage</td>
+       <td>Data storage</td>
       <td>
-          <a href="https://www.mongodb.com/nosql-explained">NoSQL Explained</a>,
-          <a href="https://www.sitepoint.com/sql-vs-nosql-differences/">SQL vs NoSQL</a>, 
-      <a href="http://stackoverflow.com/questions/1108/how-does-database-indexing-work">Nice StackOverflow answer about DB indexes</a>
+        <a href="https://www.mongodb.com/nosql-explained">NoSQL Explained</a>,
+        <a href="https://www.sitepoint.com/sql-vs-nosql-differences/">SQL vs NoSQL</a>,
+        <a href="http://stackoverflow.com/questions/1108/how-does-database-indexing-work">Nice StackOverflow answer about DB indexes</a>
       </td>
-      <td><a href="/lectures/w7/Databases.pdf">Databases</a></td>
+      <td>
+        <a href="/lectures/w7/Databases.pdf">Databases</a>
+      </td>
       <td></td>
     </tr>
 

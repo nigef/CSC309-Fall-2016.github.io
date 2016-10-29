@@ -5,21 +5,21 @@
         <title>TA Profile Information </title>
         <meta name="description" content="Form example">
         <meta name="author" content="CSC309">
-        
+
         <link rel="stylesheet" href="css/styles.css?v=1.0" type="text/css">
-        
+
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>scripts/jquery-3.0.0.min.js" defer type="text/javascript"></script>
-		<!--
+    <!--
         <script src="scripts/scripts.js" defer type="text/javascript"></script>
-		-->
-    </head> 
+    -->
+    </head>
     <body>
-        
+
         <header>
             <h1>TA Application Form</h1>
             <h2>Personal Information</h2>
         </header>
-        
+
         <!-- TAs are identifed by their student number.  In a real application
             the user would be given the option of updating their information.
             For the purposes of this lab, you should check if the student
@@ -27,7 +27,7 @@
             console log.
         -->
         <form action="/signup" method="post">
-            
+
             <div class="form_element">
                 <label id="stunumField">
                     <span class="label">Student Number:</span>
@@ -35,15 +35,15 @@
                     <span class="error"><%- errors.error_stunum %></span>
                 </label>
             </div>
-            
-            <!-- The given and family names do not need an special validation 
+
+            <!-- The given and family names do not need an special validation
                 beyond ensuring that they are filled in.  Use the HTML5
-                required attribute to force the user to enter something in 
+                required attribute to force the user to enter something in
                 these fields.
             -->
             <div class="form_element">
                 <label id="givenField">
-                    <span class="label">Given Name:</span> 
+                    <span class="label">Given Name:</span>
                     <input type="text" id="givenname" name="givenname" required>
                 </label>
             </div>
@@ -53,7 +53,7 @@
                     <input type="text" id="familyname" name="familyname" required>
                 </label>
             </div>
-            
+
             <!-- Use HTML5 validation to ensure a 10-digit phone number is
                 entered.  You will need to come up with a regular expression that
                 permits the following valid phone numbers: 4167778888,
@@ -63,13 +63,13 @@
              -->
             <div class="form_element">
                 <label id="phoneField">
-                    <span class="label">Phone Number:</span> 
+                    <span class="label">Phone Number:</span>
                     <input type="tel" id="phone" name="phone" pattern="\(?\d{3}\)?-?\d{3}-?\d{4}" required>
                     <span class="error"><%- errors.error_phone %></span>
                 </label>
             </div>
-            
-            <!-- Firefox doesn't support the "date" type, Chrome does.  
+
+            <!-- Firefox doesn't support the "date" type, Chrome does.
                 Date format is yyyy-mm-dd.
             -->
             <div class="form_element">
@@ -79,23 +79,23 @@
                     <span class="error"><%- errors.error_birthday %></span>
                 </label>
             </div>
-            
-            <!-- From a user experience point of view, this next field is 
+
+            <!-- From a user experience point of view, this next field is
                 interesting because it assumes that the default is opt in.
                 No additional validation necessary here.
-            --> 
+            -->
             <div class="form_element">
                 I <select name="grantaccess">
                     <option value="DO">DO</option>
                     <option value="DO NOT">DO NOT</option>
-                </select> 
+                </select>
                 grant permission for the TA coordinator to access my academic history on ROSI.
             </div>
-            
+
             <!-- NOTE KR: I was thinking that have the students set up the text box for the "other" option would be an interesting exercise. -->
             <fieldset>
                 <legend>Student Status at UofT</legend>
-                
+
                 <div class="form_element">
                     <label id="departmentField">
                         <span class="label" for="dept">Department:</span>
@@ -105,25 +105,25 @@
                             <option value="eng">Engineering</option>
                             <option value="other">Other (explain)</option>
                         </select>
-                        <!-- I can't figure out why the text box below wants to display to the left of the select element 
+                        <!-- I can't figure out why the text box below wants to display to the left of the select element
                         -->
                         <input type="text" name="otherdept" id="otherdept">
                     </label>
-                    
+
                     <label for="number">
-                        <span class="label">Year in Program </span> 
+                        <span class="label">Year in Program </span>
                         <input type="number" min="0" max="15" required="">
                     </label>
                 </div>
             </fieldset>
-            
-            
+
+
             <div class="form_element">
                 <label for="info">Other information relevant to your application:</label>
                 <textarea name="info" rows="6" cols="50"></textarea>
             </div>
-            
-            
+
+
             <div class="form_element">
                 <input id="SubmitButton" type="submit" value="Submit">
             </div>
