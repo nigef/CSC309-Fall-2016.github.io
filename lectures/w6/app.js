@@ -24,12 +24,12 @@ app.get(/.*pool$/, coolHandler);
 var first = function(req, res, next) {
   res.write('What is it?'); // This will break ...
   next();
-}
+};
 var secret = function(req, res) {
   //res.send("It's is a secret.");
   res.write("It's is a secret.");
   res.end();
-}
+};
 app.get('/next', first, secret);
 
 
