@@ -1,3 +1,10 @@
+---
+layout: page
+title: Project
+permalink: /assignments/project.html
+---
+
+
 # CSC309 Project
 
 Design and implement a web application for a domain of your choice. There is no set topic, so part of the task is to determine a reasonable scope for your web application.  Feedback on your proposal and consulation with your TA will help you manage the scope of your project.
