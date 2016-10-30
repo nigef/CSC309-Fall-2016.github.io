@@ -1,0 +1,64 @@
+Diffie, Whitfield
+Hellman, Martin
+Stonebraker, Michael
+Lamport, Leslie
+Goldwasser, Shafi
+Micali, Silvio
+Pearl, Judea
+Valiant, Leslie Gabriel
+Thacker, Charles P.
+Liskov, Barbara
+Clarke, Edmund Melson
+Emerson, E. Allen
+Sifakis, Joseph
+Allen, Frances Elizabeth
+Naur, Peter 
+Cerf, Vinton Gray
+Kahn, Robert Elliot
+Kay, Alan
+Adleman, Leonard Max
+Rivest, Ronald Linn
+Shamir, Adi
+Dahl, Ole-Johan
+Nygaard, Kristen
+Yao, Andrew Chi-Chih
+Brooks, Frederick
+Gray, James Nicholas
+Engelbart, Douglas
+Pnueli, Amir
+Blum, Manuel
+Feigenbaum, Edward A
+Reddy, Dabbala Rajagopal
+Hartmanis, Juris
+Stearns, Richard Edwin
+Lampson, Butler W
+Milner, Arthur John Robin Gorell
+Corbato, Fernando J
+Kahan, William Morton
+Sutherland, Ivan
+Cocke, John 
+Hopcroft, John E
+Tarjan, Robert Endre
+Karp, Richard Manning
+Wirth, Niklaus E
+Ritchie, Dennis M.
+Thompson, Kenneth Lane
+Cook, Stephen Arthur
+Codd, Edgar F
+Hoare, C. Antony R.
+Iverson, Kenneth E.
+Floyd, Robert (Bob) W 
+Backus, John
+Rabin, Michael O.
+Scott, Dana Stewart
+Newell, Allen
+Simon, Herbert Alexander
+Knuth, Donald ("Don") Ervin
+Bachman, Charles William
+Dijkstra, Edsger Wybe
+McCarthy, John
+Wilkinson, James Hardy
+Minsky, Marvin
+Hamming, Richard W
+Wilkes, Maurice V.
+Perlis, Alan J 
