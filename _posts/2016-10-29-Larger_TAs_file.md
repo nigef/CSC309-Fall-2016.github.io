@@ -3,12 +3,8 @@ layout: page
 title: Larger TAs Data File
 author: Karen Reid
 categories:
-  - Project
+  - Assignment
 ---
-
-The [project specification](/assignments/project.html) is now available.  
-
-I'm about to create the repos for any groups who have [signed up](https://docs.google.com/forms/d/1wGkQ7oDaymKJuo4LFUlAZSn5kT9_DjLK1gmsS2op56A/edit) by 10:30 on Friday evening.  
 
 I created a little Python program to generate TA JSON files for testing your assignment.  You may want to use it with a smaller set of TA names, so that you are confident the correct data is being displayed and transferred.
 
