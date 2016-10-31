@@ -145,8 +145,11 @@ permalink: /lectures/
       </td>
       <td>
         <a href="/lectures/w7/Databases.pdf">Databases</a>
+        <a href="/lectures/w7/MongoDB_Mongoose.pdf">MongoDB_Mongoose</a>
       </td>
-      <td></td>
+      <td>
+	    <a href="/lectures/w7/lab5-solution.zip">lab5 solution</a>
+	  </td>
     </tr>
 
     <tr>
