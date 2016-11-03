@@ -155,9 +155,11 @@ permalink: /lectures/
     <tr>
       <td>8</td>
       <td>Oct 31</td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <td>React</td>
+      <td>
+          <a href="https://facebook.github.io/react/tutorial/tutorial.html">React tutorial</a>
+      </td>
+      <td><a href="https://docs.google.com/presentation/d/1f5ouoVzrDFXyQC1_MvXPpSxrwTg32qvhHddtJdU8mp0/edit#slide=id.p">React</a></td>
       <td></td>
     </tr>
 
