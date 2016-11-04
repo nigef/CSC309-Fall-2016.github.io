@@ -41,6 +41,12 @@ permalink: /resources/
 
 ## JavaScript
 
+Misc:
+
+  - [Functional Programming in JS](https://www.youtube.com/watch?v=BMUiFMZr7vk&list=PL0zVEGEvSaeEd9hlmCXrk5yUyqUag-n84) by Lucas Fernandes da Costa and Nickollas Coelho
+  
+    JavaScript is a messy language, but it turns out that by borrowing a few concepts from Functional Programming, you can make your JS code a lot more efficient, secure and succinct. This 12 part video series will teach you the basics of Functional Programming in JS and clarify some of the language's trickiest features.
+
 Books:
 
   - [Eloquent JavaScript](http://eloquentjavascript.net) by Marijn Haverbeke
