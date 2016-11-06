@@ -27,8 +27,7 @@ permalink: /lectures/
         <a href="/lectures/w1/w1-intro.pdf">Intro</a>
         <a href="/lectures/w1/w1-documents.pdf">HTML, CSS</a>
       </td>
-      <td>
-      </td>
+      <td></td>
     </tr>
 
     <tr>
@@ -45,8 +44,7 @@ permalink: /lectures/
         <a href="/lectures/w2/server5.js">server5.js</a>
         <a href="/lectures/w2/tmp.html">tmp.html</a>
       </td>
-      <td>
-      </td>
+      <td></td>
     </tr>
 
     <tr>
@@ -63,8 +61,7 @@ permalink: /lectures/
         <a href="/lectures/w3/obj.js">obj.js</a>
         <a href="/lectures/w3/this.js">this.js</a>
       </td>
-      <td>
-      </td>
+      <td></td>
     </tr>
 
     <tr>
@@ -148,8 +145,8 @@ permalink: /lectures/
         <a href="/lectures/w7/MongoDB_Mongoose.pdf">MongoDB_Mongoose</a>
       </td>
       <td>
-	    <a href="/lectures/w7/lab5-solution.zip">lab5 solution</a>
-	  </td>
+      <a href="/lectures/w7/lab5-solution.zip">lab5 solution</a>
+    </td>
     </tr>
 
     <tr>
@@ -157,9 +154,11 @@ permalink: /lectures/
       <td>Oct 31</td>
       <td>React</td>
       <td>
-          <a href="https://facebook.github.io/react/tutorial/tutorial.html">React tutorial</a>
+        <a href="https://facebook.github.io/react/tutorial/tutorial.html">React tutorial</a>
       </td>
-      <td><a href="https://docs.google.com/presentation/d/1f5ouoVzrDFXyQC1_MvXPpSxrwTg32qvhHddtJdU8mp0/edit#slide=id.p">React</a></td>
+      <td>
+        <a href="https://docs.google.com/presentation/d/1f5ouoVzrDFXyQC1_MvXPpSxrwTg32qvhHddtJdU8mp0/edit#slide=id.p">React</a>
+      </td>
       <td></td>
     </tr>
 
