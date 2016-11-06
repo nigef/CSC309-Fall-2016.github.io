@@ -12,5 +12,5 @@ There is no way to automatically update these marks as changes are made, so chan
 
 
 ### Remarks
-Please use the  [remark request form](https://wwwcgi.cdf.utoronto.ca/~cs309hf/cgi-bin/remark-request.cgi?course=csc309h) for remark requests.  Include specific information about what you think the TA marked incorrectly.
+Please use the  [remark request form](https://wwwcgi.cdf.toronto.edu/~cs309hf/cgi-bin/remark-request.cgi?course=csc309h) for remark requests.  Include specific information about what you think the TA marked incorrectly.
 
