@@ -166,9 +166,21 @@ permalink: /lectures/
     <tr>
       <td>9</td>
       <td>Nov 7</td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <td>Review and Templates</td>
+      <td>
+          <a href="https://strongloop.com/strongblog/compare-javascript-templates-jade-mustache-dust/">Comparing Template Engines</a>
+          <a href="http://www.codereadability.com/constructing-html-with-templates/">Templates</a>
+          <a href="https://coderorder.com/express-framework-3-jade-pug-template-tutorial">Pug</a>
+          <a href="http://www.korenlc.com/handlebars-js-tutorial-templating-with-handlebars/">Handlebars tutorial</a>
+      </td>
+      <td>
+  	    <a href="/lectures/w9/Concepts.pdf">Concepts</a>,
+	    <a href="/lectures/w9/Templates.pdf">Templates</a>,
+	    <a href="/lectures/w9/handlebars-ex.zip">handlebars-ex</a>,
+  	    <a href="/lectures/w9/pug-ex.zip">pug-ex</a>,
+  	    <a href="/lectures/w9/ejs-ex.zip">ejs-ex</a>
+
+      </td>
       <td></td>
     </tr>
 
