@@ -186,18 +186,26 @@ permalink: /lectures/
     <tr>
       <td>10</td>
       <td>Nov 14</td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <td>Security, Data and Monitoring</td>
+      <td>
+          <a href="https://www.digitalocean.com/community/tutorials/understanding-the-ssh-encryption-and-connection-process">ssh protoco</a>, 
+          <a href="https://www.digitalocean.com/community/tutorials/an-introduction-to-oauth-2">OAuth2</a>,
+          <a href="https://access.redhat.com/documentation/en-US/Red_Hat_Certificate_System/8.1/html/Deploy_and_Install_Guide/Introduction_to_Public_Key_Cryptography.html">Public-Key Cryptopgraphy</a>, 
+          <a href="https://storage.googleapis.com/google-code-archive-downloads/v2/code.google.com/owasptop10/OWASP%20Top%2010%20-%202013.pdf">OWASP Top 10</a>
+          <a href="https://www.owasp.org/index.php/SQL_Injection_Prevention_Cheat_Sheet">SQL Injection examples</a>
+      </td>
+      <td><a href="/lectures/w10/Security.pdf">Security_1</a>,
+          
+      </td>
       <td></td>
     </tr>
 
     <tr>
       <td>11</td>
       <td>Nov 21</td>
+      <td>Security </td>
       <td></td>
-      <td></td>
-      <td></td>
+      <td><a href="/lectures/w11/Security2.pdf">Security_2</a></td>
       <td></td>
     </tr>
 
