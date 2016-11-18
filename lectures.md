@@ -195,7 +195,8 @@ permalink: /lectures/
           <a href="https://www.owasp.org/index.php/SQL_Injection_Prevention_Cheat_Sheet">SQL Injection examples</a>
       </td>
       <td><a href="/lectures/w10/Security.pdf">Security_1</a>,
-          
+          <a href="/lectures/w10/security.txt">Karen's Notes on Security talk</a>,
+          <a href="/lectures/w10/KarenHudson.txt">Karen's Notes from Kate Hudson</a>
       </td>
       <td></td>
     </tr>
