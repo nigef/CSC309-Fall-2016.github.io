@@ -196,7 +196,7 @@ permalink: /lectures/
       </td>
       <td><a href="/lectures/w10/Security.pdf">Security_1</a>,
           <a href="/lectures/w10/Security.txt">Karen's Notes on Security talk</a>,
-          <a href="/lectures/w10/KarenHudson.txt">Karen's Notes from Kate Hudson</a>
+          <a href="/lectures/w10/KateHudson.txt">Karen's Notes from Kate Hudson</a>
       </td>
       <td></td>
     </tr>
