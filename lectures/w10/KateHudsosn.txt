@@ -1,0 +1,100 @@
+Kate Hudso - Data Driven decision-making
+
+- JavaScript Expert
+
+Firefox - 9-12 million lines of code
+    - 350 million users
+Firefox engineering - 200 browser team
+    - Kate sub-team of 10
+
+
+- Broad-street pump
+    - cholera outbreak in 1850's
+    - sewage system was contaminated
+    - prevailing theory was that diseases spread by miasma (cloud of sickness)
+    - John Snow - made a dot map of the deaths and the well - relate them to the pumps
+    - after shutting off the pump they learned that the hypothesis of spread of cholera related to water
+    
+- Quality assurance and monitoring
+
+Healthy software?
+- doesn't crash (very often)
+- trust data
+- preserves data
+- easy to use
+- performance
+- able to handle error states gracefully
+
+
+What do we monitor?
+- monitor cpu, memory, #crashes
+- look at HTTP response code (500, 400)
+
+Releasing new code
+- if code changes from healthy to unhealthy - big problem
+- prevent this
+    - canary release pattern - change one server, check the monitoring, easy to pull it out if something goes wrong?
+
+What about client-side applications?
+    - staged roll-out - choose a small group of users and roll out update to them
+    - must be able to split users into groups or cohorts
+    - group of people who share a defining characteristic
+    - who gets new code - just by percentage
+    - by single country/language  (usually not en-us)
+    - opt-in release channels - beta channel
+        - consent given, so we can ask to collect more data
+        - able to ask for extra things like bug reports, feedback
+        - users are expecting some instability
+
+E.g. Blizzard Public Test Round
+    Android - beta channel
+    Firefox - beta, nightly, aurora (explaining)
+    
+Prefs - (about:config in Firefox )
+    - off/on switches for experiments
+Test Pilot - add-on 
+    - test new features for firefox
+    
+Version control for multiple releases
+    "Version control is the coolest thing in the world (other than Overwatch)"
+
+     - process on SE team to make sure branch for each release
+     
+User engagement metrics (user behaviour)
+    -  Metrics "pings"
+        - Showed us some charts
+        - mau wau dau (monthly, daily active users)
+        - track user retention
+        - can directly write sql queries on the metrics database
+
+Experiment in product development
+- release experimental products
+- Mozilla - Focus - keep browsing anonymous
+    - how much does this matter to users?
+    - how much do users care about privacy data
+
+Multivarient AB testing
+- have a control group and an experiment cohort
+- users unaware of participateion
+- run one experimenat at a time
+- must run long enough so that statistical signifcance
+    - aim for 90-95% certainty
+    - need a lot of users to do this
+- results must be correlated with right metrics - sometimes unexpected effects
+- sometimes conclude that neither is more effective
+- sometimes see unexpected effects - e.g. a huge drop in engagement
+    (makes designers sad - humbling)
+- novelty effect
+
+Ethical consideration
+    - impact of performance on user engagement
+    - negatively affect performance in a small way
+        - makeing someone's browsers slower just for an experiment is unethical
+    - decided not to do that experiment
+    
+Mozilla manifesto
+
+
+
+
+    
