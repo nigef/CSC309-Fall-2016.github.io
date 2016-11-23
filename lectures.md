@@ -167,18 +167,17 @@ permalink: /lectures/
       <td>Nov 7</td>
       <td>Review and Templates</td>
       <td>
-          <a href="https://strongloop.com/strongblog/compare-javascript-templates-jade-mustache-dust/">Comparing Template Engines</a>
-          <a href="http://www.codereadability.com/constructing-html-with-templates/">Templates</a>
-          <a href="https://coderorder.com/express-framework-3-jade-pug-template-tutorial">Pug</a>
-          <a href="http://www.korenlc.com/handlebars-js-tutorial-templating-with-handlebars/">Handlebars tutorial</a>
+        <a href="https://strongloop.com/strongblog/compare-javascript-templates-jade-mustache-dust/">Comparing Template Engines</a>
+        <a href="http://www.codereadability.com/constructing-html-with-templates/">Templates</a>
+        <a href="https://coderorder.com/express-framework-3-jade-pug-template-tutorial">Pug</a>
+        <a href="http://www.korenlc.com/handlebars-js-tutorial-templating-with-handlebars/">Handlebars tutorial</a>
       </td>
       <td>
-  	    <a href="/lectures/w9/Concepts.pdf">Concepts</a>,
-	    <a href="/lectures/w9/Templates.pdf">Templates</a>,
-	    <a href="/lectures/w9/handlebars-ex.zip">handlebars-ex</a>,
-  	    <a href="/lectures/w9/pug-ex.zip">pug-ex</a>,
-  	    <a href="/lectures/w9/ejs-ex.zip">ejs-ex</a>
-
+        <a href="/lectures/w9/Concepts.pdf">Concepts</a>,
+        <a href="/lectures/w9/Templates.pdf">Templates</a>,
+        <a href="/lectures/w9/handlebars-ex.zip">handlebars-ex</a>,
+        <a href="/lectures/w9/pug-ex.zip">pug-ex</a>,
+        <a href="/lectures/w9/ejs-ex.zip">ejs-ex</a>
       </td>
       <td></td>
     </tr>
@@ -188,15 +187,16 @@ permalink: /lectures/
       <td>Nov 14</td>
       <td>Security, Data and Monitoring</td>
       <td>
-          <a href="https://www.digitalocean.com/community/tutorials/understanding-the-ssh-encryption-and-connection-process">ssh protocol</a>, 
-          <a href="https://www.digitalocean.com/community/tutorials/an-introduction-to-oauth-2">OAuth2</a>,
-          <a href="https://access.redhat.com/documentation/en-US/Red_Hat_Certificate_System/8.1/html/Deploy_and_Install_Guide/Introduction_to_Public_Key_Cryptography.html">Public-Key Cryptopgraphy</a>, 
-          <a href="https://storage.googleapis.com/google-code-archive-downloads/v2/code.google.com/owasptop10/OWASP%20Top%2010%20-%202013.pdf">OWASP Top 10</a>,
-          <a href="https://www.owasp.org/index.php/SQL_Injection_Prevention_Cheat_Sheet">SQL Injection examples</a>
+        <a href="https://www.digitalocean.com/community/tutorials/understanding-the-ssh-encryption-and-connection-process">ssh protocol</a>,
+        <a href="https://www.digitalocean.com/community/tutorials/an-introduction-to-oauth-2">OAuth2</a>,
+        <a href="https://access.redhat.com/documentation/en-US/Red_Hat_Certificate_System/8.1/html/Deploy_and_Install_Guide/Introduction_to_Public_Key_Cryptography.html">Public-Key Cryptopgraphy</a>,
+        <a href="https://storage.googleapis.com/google-code-archive-downloads/v2/code.google.com/owasptop10/OWASP%20Top%2010%20-%202013.pdf">OWASP Top 10</a>,
+        <a href="https://www.owasp.org/index.php/SQL_Injection_Prevention_Cheat_Sheet">SQL Injection examples</a>
       </td>
-      <td><a href="/lectures/w10/Security.pdf">Security_1</a>,
-          <a href="/lectures/w10/Security.txt">Karen's Notes on Security talk</a>,
-          <a href="/lectures/w10/KateHudson.txt">Karen's Notes from Kate Hudson</a>
+      <td>
+        <a href="/lectures/w10/Security.pdf">Security_1</a>,
+        <a href="/lectures/w10/Security.txt">Karen's Notes on Security talk</a>,
+        <a href="/lectures/w10/KateHudson.txt">Karen's Notes from Kate Hudson</a>
       </td>
       <td></td>
     </tr>
@@ -204,9 +204,11 @@ permalink: /lectures/
     <tr>
       <td>11</td>
       <td>Nov 21</td>
-      <td>Security </td>
+      <td>Security</td>
       <td></td>
-      <td><a href="/lectures/w11/Security2.pdf">Security_2</a></td>
+      <td>
+        <a href="/lectures/w11/Security2.pdf">Security_2</a>
+      </td>
       <td></td>
     </tr>
 

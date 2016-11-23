@@ -1,6 +1,6 @@
 Irving's talk
 
-Security matters 
+Security matters
 - physical safety matters too, if you leak information about your users you could put them at risk.
 
 
@@ -10,36 +10,36 @@ Integrity
 Availability (DOS, something your system depends on is attacked so it affects your ability to provide your service)
 
 Risks
-- 
+-
 Threats - involve some kind of human actors
-    
+
 - Someone who works for you might leak information
 - Insider plugs in an an unknown USB key and can inadvertently get malware on the internet
 
 - Law Enforcement
     - How much should computer industry support Law Enforcement?
     - how much data should I keep in my logs and what kinds of information do you save about your user
-    
-- People/organizations out for financial gain 
-    - resell stolen passwords, credit card numbers, info about users 
+
+- People/organizations out for financial gain
+    - resell stolen passwords, credit card numbers, info about users
     - black market in stolen info about users
 - vandals - out there to cause damage
 
 
 All sorts of attack
-- attakcers don't have to change anything about your software to get at your users (XSS, CSRF)
+- attackers don't have to change anything about your software to get at your users (XSS, CSRF)
 (Need to talk more about exactly what XSS and CSRF are ?)
 
 Environment
 - trust relationships between user/computer/browser, your server, other servers (DNS, CDNs, etc)
-- typical example of MITM profiling  is wifi in a coffee shop (need to explain how)
+- typical example of MITM profiling is wifi in a coffee shop (need to explain how)
 - drive-by-download
 
-TLS  and HTTPS - 
-- 
+TLS and HTTPS -
+-
 Heartbleed - take advantage of options in the protocol?
     - find a reference
-    
+
 Make security as simple as possible.
 
 Authentication
@@ -49,21 +49,18 @@ drawback to social login is that giving info to provider.  E.g. FB knows that yo
 
 OAuth (how does it work?)
 
-Explain PubKey 
+Explain PubKey
 forensics - importance of logging activities
 
 Authorization:
-- hard work to check every operation 
+- hard work to check every operation
 
 Injection- SQL injection
     - can send to any interpreter
 
-SQL - parameter substituion instead of string concatenation
+SQL - parameter substitution instead of string concatenation
 
 A2 - Broken auth
     - use ssl
     - session ids exposed...
-A3 - 
-
-
-
+A3 -
