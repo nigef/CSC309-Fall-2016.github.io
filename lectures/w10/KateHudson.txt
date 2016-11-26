@@ -1,4 +1,4 @@
-Kate Hudso - Data Driven decision-making
+Kate Hudson - Data Driven decision-making
 
 - JavaScript Expert
 
@@ -14,7 +14,7 @@ Firefox engineering - 200 browser team
     - prevailing theory was that diseases spread by miasma (cloud of sickness)
     - John Snow - made a dot map of the deaths and the well - relate them to the pumps
     - after shutting off the pump they learned that the hypothesis of spread of cholera related to water
-    
+
 - Quality assurance and monitoring
 
 Healthy software?
@@ -49,17 +49,17 @@ What about client-side applications?
 E.g. Blizzard Public Test Round
     Android - beta channel
     Firefox - beta, nightly, aurora (explaining)
-    
-Prefs - (about:config in Firefox )
+
+Prefs - (about:config in Firefox)
     - off/on switches for experiments
-Test Pilot - add-on 
-    - test new features for firefox
-    
+Test Pilot - add-on
+    - test new features for Firefox
+
 Version control for multiple releases
     "Version control is the coolest thing in the world (other than Overwatch)"
 
      - process on SE team to make sure branch for each release
-     
+
 User engagement metrics (user behaviour)
     -  Metrics "pings"
         - Showed us some charts
@@ -75,9 +75,9 @@ Experiment in product development
 
 Multivarient AB testing
 - have a control group and an experiment cohort
-- users unaware of participateion
+- users unaware of participation
 - run one experimenat at a time
-- must run long enough so that statistical signifcance
+- must run long enough so that statistical significance
     - aim for 90-95% certainty
     - need a lot of users to do this
 - results must be correlated with right metrics - sometimes unexpected effects
@@ -89,12 +89,7 @@ Multivarient AB testing
 Ethical consideration
     - impact of performance on user engagement
     - negatively affect performance in a small way
-        - makeing someone's browsers slower just for an experiment is unethical
+        - making someone's browsers slower just for an experiment is unethical
     - decided not to do that experiment
-    
+
 Mozilla manifesto
-
-
-
-
-    

@@ -7,11 +7,11 @@ categories:
 ---
 
 ### Demo signup
-Please fill in your group name to sign up for a [demo time slot](https://docs.google.com/spreadsheets/d/1AFmuilXFrkzx697kKci5hECJKAh1xQ4jgPB9hYjrPwc/edit#gid=0).  
- 
+Please fill in your group name to sign up for a [demo time slot](https://docs.google.com/spreadsheets/d/1AFmuilXFrkzx697kKci5hECJKAh1xQ4jgPB9hYjrPwc/edit#gid=0).
+
 Note that we tried to use the course lab time slots for most of the demos.  This should make it easier to ensure that everyone from your group can attend.
- 
-The demos are not optional and all members of your group must attend and participate.
+
+**The demos are not optional and all members of your group must attend and participate.**
 
 ### Project Office hours
 
