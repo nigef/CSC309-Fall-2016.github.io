@@ -217,7 +217,7 @@ permalink: /lectures/
       </td>
       <td>
           <a href="/lectures/w11/Security2.pdf">Security_2</a>
-          <a href="lectures/w11/Promises.pdf">Promises and Web Sockets</a>
+          <a href="/lectures/w11/Promises.pdf">Promises and Web Sockets</a>
       </td>
       <td></td>
     </tr>
