@@ -61,6 +61,10 @@ permalink: /resources/
 
 ## JavaScript
 
+- [JavaScript Tutor](http://www.pythontutor.com/javascript.html)
+
+  By the well known, [Python Tutor](http://www.pythontutor.com/), "Visualize JavaScript code execution to learn JavaScript online."
+
 - [Eloquent JavaScript](http://eloquentjavascript.net) by Marijn Haverbeke
 
   A free book (Creative Commons) that seems to be better suited to readers who already know some basic JavaScript.
