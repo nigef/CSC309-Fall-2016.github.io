@@ -184,6 +184,14 @@ td {
 }
 
 
+table.lectures a {
+    display: inline-block;
+    padding: 1px 5px;
+    background: rgba(0, 67, 255, 0.05);
+    border-radius: 5px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
 // "Responsive" iframe
 
 .responsive-iframe iframe {
