@@ -206,18 +206,18 @@ permalink: /lectures/
       <td>Nov 21</td>
       <td>Security, Promises and Web Sockets</td>
       <td>
-          <a href="https://www.owasp.org/index.php/Main_Page">OWASP</a>, <a href="https://www.promisejs.org">Promises</a>, <a href="http://de.slideshare.net/domenicdenicola/callbacks-promises-and-coroutines-oh-my-the-evolution-of-asynchronicity-in-javascript">"Callbacks, Promises, and Coroutines"</a>,   
-          <a href="https://promisesaplus.com">Promises/A+</a>, 
-          <a href="https://developers.google.com/web/fundamentals/getting-started/primers/promises#toc-promisifying-xmlhttprequest">Promises tutorial</a>
-          <a href="https://github.com/googlesamples/web-fundamentals/tree/gh-pages/fundamentals/getting-started/primers">Sample code</a>
-          <a href="https://github.com/getify/You-Dont-Know-JS/tree/master/async%20%26%20performance">You Don't Know JS: Async and Performance (Simpson)</a>,
-          <a href="https://davidwalsh.name/websocket">Websockets and socket.io</a>,
-          <a href="http://socket.io/get-started/chat/">Chat example</a>
-      
+        <a href="https://www.owasp.org/index.php/Main_Page">OWASP</a>, <a href="https://www.promisejs.org">Promises</a>,
+        <a href="http://de.slideshare.net/domenicdenicola/callbacks-promises-and-coroutines-oh-my-the-evolution-of-asynchronicity-in-javascript">"Callbacks, Promises, and Coroutines"</a>,
+        <a href="https://promisesaplus.com">Promises/A+</a>,
+        <a href="https://developers.google.com/web/fundamentals/getting-started/primers/promises#toc-promisifying-xmlhttprequest">Promises tutorial</a>
+        <a href="https://github.com/googlesamples/web-fundamentals/tree/gh-pages/fundamentals/getting-started/primers">Sample code</a>
+        <a href="https://github.com/getify/You-Dont-Know-JS/tree/master/async%20%26%20performance">You Don't Know JS: Async and Performance (Simpson)</a>,
+        <a href="https://davidwalsh.name/websocket">Websockets and socket.io</a>,
+        <a href="http://socket.io/get-started/chat/">Chat example</a>
       </td>
       <td>
-          <a href="/lectures/w11/Security2.pdf">Security_2</a>
-          <a href="/lectures/w11/Promises.pdf">Promises and Web Sockets</a>
+        <a href="/lectures/w11/Security2.pdf">Security_2</a>
+        <a href="/lectures/w11/Promises.pdf">Promises and Web Sockets</a>
       </td>
       <td></td>
     </tr>
@@ -225,14 +225,14 @@ permalink: /lectures/
     <tr>
       <td>12</td>
       <td>Nov 28</td>
-      <td>Chome Extensions and Wrap-Up</td>
+      <td>Chrome Extensions and Wrap-Up</td>
       <td>
-          <a href="https://developer.chrome.com/extensions">Chrome documentation</a>
+        <a href="https://developer.chrome.com/extensions">Chrome documentation</a>
       </td>
       <td>
-          <a href="https://docs.google.com/presentation/d/1b7De96iga0yRftZ7ecixMY84ReCzxvIJ3HnnXV0Larg/edit?usp=sharing">Chrome extensions</a>
-      <a href="https://github.com/whizzzkid/csc309-crext">Demo Code</a>
-      <a href="/lectures/w12/wrapup.pdf">Wrap up</a>
+        <a href="https://docs.google.com/presentation/d/1b7De96iga0yRftZ7ecixMY84ReCzxvIJ3HnnXV0Larg/edit?usp=sharing">Chrome extensions</a>
+        <a href="https://github.com/whizzzkid/csc309-crext">Demo Code</a>
+        <a href="/lectures/w12/wrapup.pdf">Wrap up</a>
       </td>
       <td></td>
     </tr>
