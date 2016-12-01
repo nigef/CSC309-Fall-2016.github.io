@@ -225,9 +225,12 @@ permalink: /lectures/
     <tr>
       <td>12</td>
       <td>Nov 28</td>
+      <td>Chome Extensions and Wrap-Up</td>
       <td></td>
-      <td></td>
-      <td></td>
+      <a href="https://docs.google.com/presentation/d/1b7De96iga0yRftZ7ecixMY84ReCzxvIJ3HnnXV0Larg/edit?usp=sharing">Chrome extensions</a>
+      <td><a href="Demo code">https://github.com/whizzzkid/csc309-crext</a>
+      <a href="/lectures/w12/wrapup.pdf">Wrap up</a>
+      </td>
       <td></td>
     </tr>
   </tbody>
